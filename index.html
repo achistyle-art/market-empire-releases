@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="de" data-lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MARKET EMPIRE</title>
+<meta name="description" content="MARKET EMPIRE – Wirtschaftssimulation für Windows: vom kleinen Nachbarschaftsladen zum Handelsimperium.">
+<meta property="og:title" content="MARKET EMPIRE">
+<meta property="og:description" content="Vom Nachbarschaftsladen zum Handelsimperium – Supermarkt-Wirtschaftssimulation für Windows.">
+<meta property="og:image" content="img/markt-ui.jpg">
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#inhalt"><span lang="de">Zum Inhalt</span><span lang="en">Skip to content</span></a>
+
+<header class="top">
+  <div class="wrap top-inner">
+    <a class="brand" href="#start" aria-label="MARKET EMPIRE">
+      <img src="img/logo.svg" alt="" width="36" height="36">
+      <span>MARKET EMPIRE</span>
+    </a>
+    <nav class="nav" aria-label="Hauptmenü">
+      <a href="#spiel"><span lang="de">Das Spiel</span><span lang="en">The game</span></a>
+      <a href="#bilder"><span lang="de">Bilder</span><span lang="en">Screenshots</span></a>
+      <a href="#neuigkeiten"><span lang="de">Neuigkeiten</span><span lang="en">News</span></a>
+      <a href="#vorschlaege"><span lang="de">Vorschläge</span><span lang="en">Ideas</span></a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Sprache / Language">
+      <button type="button" data-set-lang="de" aria-pressed="true">DE</button>
+      <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main id="inhalt">
+  <!-- Start -->
+  <section id="start" class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span lang="de">Wirtschaftssimulation für Windows</span><span lang="en">Business simulation for Windows</span></p>
+        <h1>MARKET EMPIRE</h1>
+        <p class="lede">
+          <span lang="de">Vom Nachbarschaftsladen an der Lindenstraße zum Handelsimperium. Richten Sie Regale ein, bestellen Sie Ware mit Blick aufs MHD, planen Sie Schichten und behaupten Sie sich gegen die Discounter der Stadt.</span>
+          <span lang="en">From a corner shop on Lindenstraße to a retail empire. Set up shelves, order stock with an eye on best-before dates, plan shifts and hold your own against the city's discounters.</span>
+        </p>
+        <div class="cta">
+          <a class="btn btn-gold" id="dl-main" href="https://github.com/achistyle-art/market-empire-releases/releases/latest" rel="noopener">
+            <span lang="de">Für Windows herunterladen</span><span lang="en">Download for Windows</span>
+          </a>
+          <a class="btn btn-ghost" href="#neuigkeiten"><span lang="de">Was ist neu?</span><span lang="en">What's new?</span></a>
+        </div>
+        <p class="meta" id="dl-meta">
+          <span lang="de">Kostenlos · Windows 10/11 · Deutsch &amp; English · automatische Updates</span>
+          <span lang="en">Free · Windows 10/11 · German &amp; English · automatic updates</span>
+        </p>
+      </div>
+
+      <!-- Kassenbon: neueste Version -->
+      <aside class="receipt" aria-labelledby="bon-title">
+        <p class="receipt-head" id="bon-title">MARKT AM LINDENPLATZ</p>
+        <p class="receipt-sub">Lindenstraße 1 · <span lang="de">Kasse 1</span><span lang="en">Till 1</span></p>
+        <div class="receipt-rule" aria-hidden="true"></div>
+        <dl class="receipt-lines">
+          <div><dt><span lang="de">Neueste Version</span><span lang="en">Latest version</span></dt><dd id="bon-version">–</dd></div>
+          <div><dt><span lang="de">Veröffentlicht</span><span lang="en">Released</span></dt><dd id="bon-date">–</dd></div>
+          <div><dt><span lang="de">Installer (Setup.exe)</span><span lang="en">Installer (Setup.exe)</span></dt><dd id="bon-size">–</dd></div>
+          <div><dt><span lang="de">Preis</span><span lang="en">Price</span></dt><dd class="price"><span lang="de">0,00 €</span><span lang="en">€0.00</span></dd></div>
+        </dl>
+        <div class="receipt-rule" aria-hidden="true"></div>
+        <p class="receipt-total"><span><span lang="de">SUMME</span><span lang="en">TOTAL</span></span><span class="price"><span lang="de">0,00 €</span><span lang="en">€0.00</span></span></p>
+        <p class="receipt-note">
+          <span lang="de">Das installierte Spiel aktualisiert sich selbst.</span>
+          <span lang="en">The installed game updates itself.</span>
+        </p>
+        <div class="receipt-links">
+          <a id="bon-setup" href="https://github.com/achistyle-art/market-empire-releases/releases/latest" rel="noopener">Setup.exe</a>
+          <a id="bon-zip" href="https://github.com/achistyle-art/market-empire-releases/releases/latest" rel="noopener"><span lang="de">Portable ZIP</span><span lang="en">Portable ZIP</span></a>
+        </div>
+        <p class="receipt-thanks"><span lang="de">Vielen Dank für Ihren Einkauf!</span><span lang="en">Thank you for shopping with us!</span></p>
+      </aside>
+    </div>
+    <figure class="wrap hero-shot">
+      <img src="img/markt-ui.jpg" alt="Isometrische Ansicht eines eingerichteten Lebensmittelmarkts mit Kunden, Kassen und Bauleiste" width="1600" height="900">
+    </figure>
+  </section>
+
+  <!-- Das Spiel -->
+  <section id="spiel" class="band">
+    <div class="wrap">
+      <h2><span lang="de">Ein Supermarkt, wie er wirklich läuft</span><span lang="en">A supermarket that runs like the real thing</span></h2>
+      <p class="section-lede">
+        <span lang="de">Jede Zahl im Spiel hat einen Grund: Kunden kommen mit Einkaufszettel, Ware hat ein Mindesthaltbarkeitsdatum, Lieferanten haben Mindestbestellwerte und Lieferzeiten.</span>
+        <span lang="en">Every number in the game has a reason: customers arrive with shopping lists, goods have best-before dates, suppliers have minimum order values and lead times.</span>
+      </p>
+      <ul class="features">
+        <li>
+          <h3><span lang="de">Markt einrichten</span><span lang="en">Build your store</span></h3>
+          <p><span lang="de">Regale, Kühlregale mit Glastüren, Obsttische, Bedientheke, Backstation und Kassen frei platzieren. Kunden laufen ihre Wege durch Ihren Grundriss.</span><span lang="en">Place shelves, glass-door fridges, produce tables, a service counter, a bake-off station and checkouts. Customers walk real paths through your floor plan.</span></p>
+        </li>
+        <li>
+          <h3><span lang="de">Warenwirtschaft</span><span lang="en">Stock management</span></h3>
+          <p><span lang="de">Über 500 Artikel bei sieben Lieferanten. Bestellvorschläge rechnen mit Lieferzeit, Wochentag und MHD; ab einer Grenze liefern Lieferanten frei Haus.</span><span lang="en">Over 500 items from seven suppliers. Order proposals account for lead time, weekday and best-before date; above a threshold delivery is free.</span></p>
+        </li>
+        <li>
+          <h3><span lang="de">Personal und Dienstplan</span><span lang="en">Staff and schedule</span></h3>
+          <p><span lang="de">Kassierer, Verräumer, Thekenpersonal und Marktleitung einstellen, Schichten planen, Schulungen buchen – und mit einem Personalraum für gute Pausen sorgen.</span><span lang="en">Hire cashiers, stockers, counter staff and a store manager, plan shifts, book training – and keep your team happy with a staff room.</span></p>
+        </li>
+        <li>
+          <h3><span lang="de">Preise und Konkurrenz</span><span lang="en">Prices and competition</span></h3>
+          <p><span lang="de">Mitbewerber starten Preisoffensiven, Lieferanten erhöhen Preise, die Inflation frisst an der Spanne. Sie reagieren mit Aktionen, Prospekten und Eigenmarken.</span><span lang="en">Competitors launch price offensives, suppliers raise prices, inflation eats into your margin. You respond with promotions, flyers and private labels.</span></p>
+        </li>
+        <li>
+          <h3><span lang="de">Ausbau bis zum Vollsortimenter</span><span lang="en">Grow to a full-range supermarket</span></h3>
+          <p><span lang="de">Nachbarschaftsladen, Mini-Markt, Lebensmittelmarkt, Vollsortiment-Supermarkt: Grundstücke kaufen, umbauen, Kredit aufnehmen und Reserven einplanen.</span><span lang="en">Corner shop, mini market, grocery store, full-range supermarket: buy plots, rebuild, take out loans and keep reserves.</span></p>
+        </li>
+        <li>
+          <h3><span lang="de">Filialnetz</span><span lang="en">Branch network</span></h3>
+          <p><span lang="de">Fünf Filialformate an 28 Standorten vom Dorf bis zur Altstadt. Die Standortprognose zeigt, wo sich eine Filiale nach rund einem Jahr bezahlt macht.</span><span lang="en">Five branch formats at 28 sites from villages to the old town. The site forecast shows where a branch pays off after about a year.</span></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Bilder -->
+  <section id="bilder" class="band band-alt">
+    <div class="wrap">
+      <h2><span lang="de">Bilder aus dem Spiel</span><span lang="en">Screenshots</span></h2>
+      <div class="gallery">
+        <figure><button type="button" class="shot" data-full="img/innenraum.jpg"><img src="img/innenraum.jpg" alt="Innenansicht mit Regalen, Kühlregalen, Pfandautomat und Kunden" loading="lazy" width="1600" height="900"></button>
+          <figcaption><span lang="de">Mittagsbetrieb im Lebensmittelmarkt</span><span lang="en">Lunchtime rush at the grocery store</span></figcaption></figure>
+        <figure><button type="button" class="shot" data-full="img/theke.jpg"><img src="img/theke.jpg" alt="Bedientheke mit Fleisch, Wurst und Käse, daneben Obsttische" loading="lazy" width="1600" height="900"></button>
+          <figcaption><span lang="de">Bedientheke und Frischeabteilung</span><span lang="en">Service counter and fresh produce</span></figcaption></figure>
+        <figure><button type="button" class="shot" data-full="img/lager.jpg"><img src="img/lager.jpg" alt="Lager mit Schwerlastregalen, Paletten und Personalraum" loading="lazy" width="1600" height="900"></button>
+          <figcaption><span lang="de">Lager mit Personalraum</span><span lang="en">Storage with staff room</span></figcaption></figure>
+        <figure><button type="button" class="shot" data-full="img/dienstplan.jpg"><img src="img/dienstplan.jpg" alt="Dienstplan mit Bedarf und Besetzung je Stunde" loading="lazy" width="1600" height="900"></button>
+          <figcaption><span lang="de">Dienstplan: Bedarf je Stunde</span><span lang="en">Schedule: staffing needs by hour</span></figcaption></figure>
+        <figure><button type="button" class="shot" data-full="img/finanzen.jpg"><img src="img/finanzen.jpg" alt="Gewinn- und Verlustrechnung im Finanzbereich" loading="lazy" width="1600" height="900"></button>
+          <figcaption><span lang="de">Gewinn- und Verlustrechnung</span><span lang="en">Profit and loss statement</span></figcaption></figure>
+        <figure><button type="button" class="shot" data-full="img/markt-ui.jpg"><img src="img/markt-ui.jpg" alt="Gesamtansicht des Markts mit Bauleiste und Zielen" loading="lazy" width="1600" height="900"></button>
+          <figcaption><span lang="de">Bauleiste, Ziele und Hinweise</span><span lang="en">Build bar, goals and alerts</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Neuigkeiten -->
+  <section id="neuigkeiten" class="band">
+    <div class="wrap">
+      <h2><span lang="de">Neuigkeiten und Versionen</span><span lang="en">News and releases</span></h2>
+      <p class="section-lede">
+        <span lang="de">Jede Änderung bekommt eine eigene Versionsnummer. Das installierte Spiel lädt neue Versionen automatisch.</span>
+        <span lang="en">Every change gets its own version number. The installed game downloads new versions automatically.</span>
+      </p>
+      <ol class="releases" id="releases" aria-live="polite">
+        <li class="release-empty"><span lang="de">Versionen werden geladen …</span><span lang="en">Loading releases …</span></li>
+      </ol>
+      <button type="button" class="btn btn-ghost" id="more-releases" hidden><span lang="de">Ältere Versionen anzeigen</span><span lang="en">Show older releases</span></button>
+    </div>
+  </section>
+
+  <!-- Vorschläge -->
+  <section id="vorschlaege" class="band band-alt">
+    <div class="wrap">
+      <h2><span lang="de">Vorschläge und Fehlermeldungen</span><span lang="en">Ideas and bug reports</span></h2>
+      <p class="section-lede">
+        <span lang="de">Was fehlt Ihnen im Spiel, was hakt? Vorschläge und Fehlerberichte landen öffentlich auf GitHub. Dort können alle mit 👍 abstimmen – die beliebtesten Ideen kommen zuerst ins Spiel.</span>
+        <span lang="en">What's missing, what's broken? Ideas and bug reports are posted publicly on GitHub. Everyone can vote with 👍 – the most popular ideas get built first.</span>
+      </p>
+      <div class="ideas">
+        <form id="idea-form" class="idea-form" novalidate>
+          <fieldset class="kind">
+            <legend><span lang="de">Art</span><span lang="en">Type</span></legend>
+            <label><input type="radio" name="kind" value="Vorschlag" id="kind-idea" checked> <span lang="de">Vorschlag</span><span lang="en">Idea</span></label>
+            <label><input type="radio" name="kind" value="Fehler" id="kind-bug"> <span lang="de">Fehler</span><span lang="en">Bug</span></label>
+          </fieldset>
+          <label for="idea-title"><span lang="de">Titel</span><span lang="en">Title</span></label>
+          <input id="idea-title" name="title" maxlength="120" required autocomplete="off">
+          <label for="idea-body"><span lang="de">Beschreibung</span><span lang="en">Description</span></label>
+          <textarea id="idea-body" name="body" rows="6" maxlength="4000" required></textarea>
+          <label for="idea-version"><span lang="de">Spielversion (steht unten rechts im Spiel)</span><span lang="en">Game version (bottom right in the game)</span></label>
+          <input id="idea-version" name="version" maxlength="20" autocomplete="off">
+          <p class="form-error" id="idea-error" hidden></p>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-gold"><span lang="de">Auf GitHub absenden</span><span lang="en">Post on GitHub</span></button>
+            <button type="button" class="btn btn-ghost" id="idea-copy"><span lang="de">Text kopieren</span><span lang="en">Copy text</span></button>
+          </div>
+          <p class="fine">
+            <span lang="de">Zum Absenden brauchen Sie ein kostenloses GitHub-Konto. Ihr Text öffnet sich dort vorausgefüllt in einem neuen Tab; erst dort wird er veröffentlicht.</span>
+            <span lang="en">You need a free GitHub account to post. Your text opens pre-filled in a new tab; it is only published there.</span>
+          </p>
+        </form>
+        <div class="idea-board">
+          <h3><span lang="de">Meistgewünscht</span><span lang="en">Most wanted</span></h3>
+          <ol class="idea-list" id="idea-list" aria-live="polite">
+            <li class="idea-empty"><span lang="de">Vorschläge werden geladen …</span><span lang="en">Loading ideas …</span></li>
+          </ol>
+          <a class="board-link" href="https://github.com/achistyle-art/market-empire-releases/issues" rel="noopener"><span lang="de">Alle Vorschläge und Fehler auf GitHub</span><span lang="en">All ideas and bugs on GitHub</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fahrplan -->
+  <section id="fahrplan" class="band">
+    <div class="wrap">
+      <h2><span lang="de">Fahrplan</span><span lang="en">Roadmap</span></h2>
+      <div class="roadmap">
+        <div class="lane">
+          <h3><span lang="de">Jetzt verfügbar</span><span lang="en">Available now</span></h3>
+          <ul>
+            <li><span lang="de">Vier Ausbaustufen bis zum Vollsortimenter</span><span lang="en">Four store sizes up to the full-range supermarket</span></li>
+            <li><span lang="de">Filialnetz mit fünf Formaten und Zentrallager</span><span lang="en">Branch network with five formats and a central warehouse</span></li>
+            <li><span lang="de">Szenarien, 80 Erfolge, Tutorial mit Beraterin</span><span lang="en">Scenarios, 80 achievements, tutorial with an advisor</span></li>
+            <li><span lang="de">Deutsch und Englisch</span><span lang="en">German and English</span></li>
+          </ul>
+        </div>
+        <div class="lane">
+          <h3><span lang="de">In Vorbereitung</span><span lang="en">In preparation</span></h3>
+          <ul>
+            <li><span lang="de">Veröffentlichung auf Steam mit Steam-Erfolgen</span><span lang="en">Steam release with Steam achievements</span></li>
+            <li><span lang="de">Signierter Installer (keine Windows-Warnung mehr)</span><span lang="en">Signed installer (no more Windows warning)</span></li>
+          </ul>
+        </div>
+        <div class="lane">
+          <h3><span lang="de">Geplant</span><span lang="en">Planned</span></h3>
+          <ul>
+            <li><span lang="de">Einkaufsgenossenschaften mit anderen Spielern</span><span lang="en">Buying cooperatives with other players</span></li>
+            <li><span lang="de">Ranglisten und Wettbewerbe</span><span lang="en">Leaderboards and competitions</span></li>
+            <li><span lang="de">Ihre Vorschläge mit den meisten Stimmen</span><span lang="en">Your most-voted ideas</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="band band-alt">
+    <div class="wrap faq">
+      <h2><span lang="de">Häufige Fragen</span><span lang="en">FAQ</span></h2>
+      <details>
+        <summary><span lang="de">Windows warnt beim Start („Der Computer wurde durch Windows geschützt“). Ist das gefährlich?</span><span lang="en">Windows shows “Windows protected your PC”. Is that dangerous?</span></summary>
+        <p><span lang="de">Nein. Der Installer ist noch nicht digital signiert, deshalb kennt Windows SmartScreen ihn nicht. Klicken Sie auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“. Ein signierter Installer ist in Vorbereitung.</span><span lang="en">No. The installer isn't digitally signed yet, so Windows SmartScreen doesn't recognise it. Click “More info” and then “Run anyway”. A signed installer is in preparation.</span></p>
+      </details>
+      <details>
+        <summary><span lang="de">Mein Virenscanner meldet einen Fehler oder blockiert den Download.</span><span lang="en">My antivirus reports an error or blocks the download.</span></summary>
+        <p><span lang="de">Unsignierte, neue Programme werden von manchen Scannern vorsorglich geprüft oder blockiert. Das Spiel wird automatisch und nachvollziehbar auf GitHub gebaut. Bleibt die Meldung, nutzen Sie die portable ZIP-Version oder melden Sie den Fall über das Formular oben.</span><span lang="en">Some scanners check or block new, unsigned programs as a precaution. The game is built automatically and transparently on GitHub. If the warning persists, use the portable ZIP version or report it via the form above.</span></p>
+      </details>
+      <details>
+        <summary><span lang="de">Wie bekomme ich Updates?</span><span lang="en">How do I get updates?</span></summary>
+        <p><span lang="de">Die installierte Version (Setup.exe) prüft beim Start auf neue Versionen und installiert sie mit einem Klick. Die portable ZIP-Version zeigt nur einen Hinweis; dort laden Sie die neue Version selbst herunter.</span><span lang="en">The installed version (Setup.exe) checks for new versions on start and installs them with one click. The portable ZIP version only shows a notice; download the new version yourself.</span></p>
+      </details>
+      <details>
+        <summary><span lang="de">Wo liegen meine Spielstände?</span><span lang="en">Where are my save games?</span></summary>
+        <p><span lang="de">Lokal auf Ihrem Rechner im Benutzerprofil. Updates lassen sie unverändert; das Spiel speichert nach jedem Spieltag automatisch.</span><span lang="en">Locally on your PC in your user profile. Updates leave them untouched; the game autosaves after every in-game day.</span></p>
+      </details>
+      <details>
+        <summary><span lang="de">Welche Systemvoraussetzungen braucht das Spiel?</span><span lang="en">What are the system requirements?</span></summary>
+        <p><span lang="de">Windows 10 oder 11 (64 Bit), 4 GB RAM, rund 300 MB freier Speicher und eine beliebige Grafikkarte der letzten zehn Jahre. In den Einstellungen lässt sich die Grafikqualität reduzieren.</span><span lang="en">Windows 10 or 11 (64-bit), 4 GB RAM, about 300 MB of free disk space and any graphics card from the last ten years. You can lower the graphics quality in the settings.</span></p>
+      </details>
+      <details>
+        <summary><span lang="de">Kommt das Spiel auf Steam?</span><span lang="en">Is the game coming to Steam?</span></summary>
+        <p><span lang="de">Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht, finden Sie den Link hier.</span><span lang="en">Yes, the Steam release is in preparation. As soon as the store page is live, you'll find the link here.</span></p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p>© 2026 MARKET EMPIRE</p>
+    <p class="foot-links">
+      <a href="https://github.com/achistyle-art/market-empire-releases/releases" rel="noopener"><span lang="de">Alle Downloads</span><span lang="en">All downloads</span></a>
+      <a href="#vorschlaege"><span lang="de">Feedback</span><span lang="en">Feedback</span></a>
+      <a href="impressum.html"><span lang="de">Impressum &amp; Datenschutz</span><span lang="en">Legal notice &amp; privacy</span></a>
+    </p>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox" aria-label="Bild">
+  <img alt="" id="lightbox-img">
+  <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Schließen">×</button>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

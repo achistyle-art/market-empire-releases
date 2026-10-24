@@ -1,0 +1,163 @@
+[
+ {
+  "version": "0.8.7",
+  "text": "Beratertipps: Helga Lindner aus dem Tutorial meldet sich einmalig, sobald eine Funktion des mittleren und späten Spiels wichtig wird (Dienstplan beim ersten Mitarbeiter, Kassenbesetzung, Personalraum, Pfandautomat, Kredit für den Ausbau, Öffnungszeiten, automatische Disposition, Preise bei Inflation, Gegenmaßnahmen gegen Konkurrenz, Filialen). Neue wechselnde Tipps und ein aktualisierter Ausblick am Ende des Tutorials.",
+  "items": []
+ },
+ {
+  "version": "0.8.6",
+  "text": "Englische Zahlenformate: Auf Englisch erscheinen Beträge als „€25,000“ bzw. „€12.50“, Prozente als „55%“, Dezimalzahlen mit Punkt; Preiseingaben verstehen das englische Format. Auf Deutsch bleibt alles wie gewohnt.",
+  "items": []
+ },
+ {
+  "version": "0.8.5",
+  "text": "Filialen neu abgestimmt: Vorher verdiente schon eine kleine Nachbarschaftsladen-Filiale rund 30.000 € im Monat und hatte ihre Baukosten nach 2–3 Monaten wieder herein – deutlich mehr als der selbst geführte Markt. Jetzt amortisiert sich eine Filiale am besten Standort nach etwa 9–14 Monaten (realistischere Kundendichte und Handelsspannen von 23–33 %). Bei großen Formaten lohnen sich nur noch die guten Standorte; die Standortprognose wird damit wichtig.",
+  "items": []
+ },
+ {
+  "version": "0.8.4",
+  "text": "Kassen: Kunden stellen sich an besetzte Kassen an und gehen an eine leere Kasse nur, wenn gerade keine besetzt ist. Vorher verteilten sie sich auch auf unbesetzte Kassen und gingen dort nach langem Warten verärgert – im Langzeittest die häufigste Ursache für verlorene Kunden im Lebensmittelmarkt (Abbrüche an leeren Kassen −75 %, deutlich höhere Gewinne).",
+  "items": []
+ },
+ {
+  "version": "0.8.3",
+  "text": "Großeinkauf und Preisentwicklung: Kunden kaufen deutlich mehr ein (Ø-Bon etwa verdoppelt, Familien machen samstags den Wocheneinkauf mit 14–26 Artikeln, bis zu drei Artikel je Warengruppe). Marktpreise der Konkurrenz steigen jetzt mit der Inflation und zu 70 % mit Preiserhöhungen der Hersteller – vorher blieben sie fast stehen, sodass die Spanne über die Zeit unausweichlich schrumpfte. Preiserhöhungen kommen seltener (Hersteller etwa alle 80 Tage, Inflation etwa 1,5× im Jahr). Neuer Hinweis, wenn viele Artikel deutlich unter Marktpreis liegen.",
+  "items": []
+ },
+ {
+  "version": "0.8.2",
+  "text": "Korrekturen aus dem Langzeit-Testlauf: Der Dienstplaner verlangt Verräumpersonal erst ab ~15 Kunden pro Stunde (vorher schon beim ersten Kunden – wer dem folgte, stellte sich im kleinen Laden in die Pleite). Die Dispo rechnet beim freien Lagerplatz den Abverkauf bis zur Lieferung mit ein, statt Schnelldreher wegen eines scheinbar vollen Lagers wegzukürzen (Ergebnis im Test +90 €/Tag). Haltbare Ware bekommt einen vollen Tag Sicherheitsbestand. „Bestellvorschlag übernehmen“ füllt bei knappen Artikeln bis zum Mindestbestellwert auf, statt gar nicht zu bestellen. Die automatische Dispo füllt kurz vor „frei Haus“ mit haltbarer Ware auf (Lieferkosten −15 %). Ein Regalumbau durch Vertreter listet den verdrängten Artikel aus, statt ihn ohne Regalplatz gelistet zu lassen; neuer Hinweis bei gelisteten Artikeln ohne Regalplatz.",
+  "items": []
+ },
+ {
+  "version": "0.8.1",
+  "text": "Öffnungszeiten einstellbar (Einstellungen → Optionen, gilt ab dem nächsten Tag): kurz 8–19 Uhr (rund 10 % weniger Kundschaft, 10 % weniger Strom), normal 7–20 Uhr oder lang 7–22 Uhr (rund 8 % mehr Kundschaft am Abend, 15 % mehr Strom, Spätschicht bis 23 Uhr mit 25 % Spätzuschlag ab 21 Uhr). Dienstplan, Kassenprognose, Lohnkosten und Beleuchtung richten sich danach. Neu: Pfandautomat (ab Level 2, 6.500 €, Bauleiste → Deko): Getränke werden 12 % häufiger gekauft, etwa 2 % mehr Kundschaft, mit Strom- und Wartungskosten.",
+  "items": []
+ },
+ {
+  "version": "0.8.0",
+  "text": "Englische Sprache: Umschalter Deutsch/English im Hauptmenü und in den Einstellungen, ohne Neustart; beim ersten Start richtet sich die Sprache nach dem System. Übersetzt sind Oberfläche, Meldungen, Tutorial, Ziele, Erfolge, Ereignisse, Artikel- und Einrichtungsnamen sowie die Beschriftungen auf der Spielfläche. Das Wörterbuch liegt in src/i18n/en.json; node scripts/i18n-extract.cjs zeigt, welche neuen Texte noch keine Übersetzung haben.",
+  "items": []
+ },
+ {
+  "version": "0.7.6",
+  "text": "Gegenmaßnahmen gegen die Konkurrenz: Startet ein Mitbewerber eine Preisoffensive, können Sie reagieren (Gegenprospekt 500 € = 8 % attraktiver für die Dauer der Offensive, Treuecoupons 250 € = +8 Stammkunden und mehr Kundschaft, oder nicht reagieren); auf eine dauerhafte Preissenkung antworten Sie mit einer Frische- und Service-Kampagne. Grafik: Kühlregale mit Glastüren je Fach, Griffen, LED-Leiste, Beschlag und Temperaturanzeige (+4°, bei Defekt rot +12°). Wetter sichtbar: Dauerregen mit Regenschleier, im Winter Schneefall statt Regen; in der Innenansicht bleibt der Laden trocken.",
+  "items": []
+ },
+ {
+  "version": "0.7.5",
+  "text": "Pausen im Personalraum: Mitarbeiter setzen sich auf einen freien Stuhl am Tisch (vier Plätze), sitzen dort mit Kaffeetasse und schauen zum Tisch; Tisch, Stühle und Personen werden in der richtigen Reihenfolge gezeichnet.",
+  "items": []
+ },
+ {
+  "version": "0.7.4",
+  "text": "Personalraum überarbeitet: richtige Innenwand mit Sockel und Abdeckung zum Lager, Tür mit Holzzarge, Sturz mit Schild „PERSONAL“, offenem Türblatt mit Glaseinsatz und Kaffee-Schild. Innen Laminat mit Teppich, Sitzgruppe mit vier Stühlen, Zeitung und Tassen, Spinde, Küchenzeile, Kühlschrank, Wanduhr und Pinnwand mit Dienstplan; die Ladendeko hängt nicht mehr im Personalraum. Lager: Rückwände werden jetzt hinter den Regalen gezeichnet, dadurch sind Regale, Kühlraum und Tiefkühlzelle in voller Höhe sichtbar.",
+  "items": []
+ },
+ {
+  "version": "0.7.3",
+  "text": "Personalraum: Unter „Ausbau“ ab Level 2 für 2.500 € einrichtbar. Er belegt die zwei linken Regalspalten im Lager (Trockenlager −10 %) und ist mit Spinden, Kaffeeküche, Kühlschrank, Tisch mit Stühlen und Glaswand ausgestattet. Mitarbeiter verbringen ihre Pausen dort, die Motivation steigt dauerhaft (+8 Zielwert) und Krankmeldungen werden 30 % seltener.",
+  "items": []
+ },
+ {
+  "version": "0.7.2",
+  "text": "Grafik Lager, Kasse, Außenbereich: Lager mit Schwerlastregalen, Holzpaletten und foliierten Kartons in den Farben der gelagerten Ware, Kühlraum (+4 °C) und Tiefkühlzelle (−18 °C) mit Streifenvorhang und Gitterregalen, Bodenmarkierung, Hubwagen und Rollcontainer; Trennwand zum Lager in der Innenansicht brüstungshoch. Kasse mit laufendem Band, Ware und Warentrenner, Kassendisplay, Kartenterminal und Süßwarenregal. Außen: Ziegeldach mit First und Schornstein, Fensterspiegelungen am Tag und beleuchtete Schaufenster am Abend, Autos mit Scheinwerfern und Rücklichtern, Bäume mit Licht und Schatten.",
+  "items": []
+ },
+ {
+  "version": "0.7.1",
+  "text": "Grafik Innenraum: Verpackungsformen je Warengruppe (Flaschen, Dosen, Milchkartons mit Giebel, Tüten, Gläser, Drogerieflaschen, Schachteln mit Etikett), Preisschilder an den Regalkanten, Bedientheke mit Fleisch, Wurstrollen, Käselaiben und Fisch auf Eis samt Preiskärtchen, Dienstkleidung je Rolle (Kittel und Kochmütze an der Theke, Kappe beim Verräumen, Namensschilder), Einkaufswagen bei großen Einkäufen. Schneller durch Sichtbarkeitsprüfung und Detailstufen beim Herauszoomen.",
+  "items": []
+ },
+ {
+  "version": "0.7.0",
+  "text": "Großes Inhaltsupdate:",
+  "items": [
+   "Schichtplaner (Dienstplan): Bedarf je Stunde für Kasse, Verräumung und Bedientheke gegen die Besetzung (rot = fehlt, blau = zu viel), Vorschlag per Klick übernehmen, Hinweis, welches Personal noch fehlt.",
+   "Neue Ereignisse: Stromausfall (Notstrom mieten oder Kühlware riskieren), Abwerbung eines Mitarbeiters (Lohnerhöhung, Prämie oder gehen lassen), Grippewelle, Baustelle vor dem Markt, zweitägiges Stadtfest.",
+   "Ziele „Marktführer“ nach dem Vollsortimenter: zwei Filialen, Zentrallager, 1 Mio. € Umsatz, 20 % Marktanteil, Ruf 90, 20 Mitarbeiter – mit Prämien.",
+   "Bedientheke: Tagesangebot −20 % je Fach, Abschriften und Thekenverkäufe im Infofenster; freundliche Beratung macht zufriedener und bringt Stammkunden.",
+   "Kundenbewertungen (Sterne und Kommentare zum Tag) und Karte „Kundenkarte & Stammkunden“ in der Marktübersicht."
+  ]
+ },
+ {
+  "version": "0.6.6",
+  "text": "Eigenmarken tragen den Zusatz „(Eigen)“ im Artikelnamen – sichtbar am Regal, im Einkauf, bei Preisen und in Berichten.",
+  "items": []
+ },
+ {
+  "version": "0.6.5",
+  "text": "Bedientheke (vorher „Frischetheke“) nur noch für Fleisch, Wurst, Fisch und Käse. Neue Thekenware, die nur dort verkauft wird: Lachsfilet und Seelachsfilet frisch, Forelle geräuchert, Fleischwurst, Leberkäse, Rinderfilet, Bergkäse vom Laib, Brie de Meaux, Ziegenkäse-Rolle. Alte Spielstände: andere Ware wird aus der Theke ins Lager geräumt.",
+  "items": []
+ },
+ {
+  "version": "0.6.4",
+  "text": "Tagesbericht mit Verlauf (Umsatz/Ergebnis und Kunden/Zufriedenheit der letzten 14 Tage) und „Was lief gut / schlecht“ im Vergleich zum Schnitt der Vortage. Kundenwünsche: Kunden fragen nach konkreten, nicht gelisteten Artikeln – im Tagesbericht, im Artikelstamm (💬 Kundenwünsche) und in den Hinweisen, jeweils mit „Listen“.",
+  "items": []
+ },
+ {
+  "version": "0.6.3",
+  "text": "Cheat-Codes (Einstellungen → Cheat-Code): GELDREGEN bringt 500.000 € als Kapitaleinlage (kein Ertrag in der GuV). Ein Spielstand mit Cheat ist dauerhaft markiert: keine Erfolge, keine Steam-Erfolge, keine Szenario-Medaillen.",
+  "items": []
+ },
+ {
+  "version": "0.6.2",
+  "text": "Bestellabfrage am Tagesende: Die automatische Disposition (Forschung oder Marktleitung) legt ihren Vorschlag zur Prüfung vor – Mengen ändern, Positionen streichen (0), bestellen oder verwerfen; Liefertermine wie bei sofortiger Bestellung. Abschaltbar in den Einstellungen. MHD-Spalte im Einkauf und in der Abfrage, Warnung ⚠️ wenn Ware voraussichtlich vor Ablauf nicht verkauft wird.",
+  "items": []
+ },
+ {
+  "version": "0.6.1",
+  "text": "Aktionen blähen die Dispo nicht mehr auf: Bestellvorschläge und automatische Disposition rechnen mit dem Normalabsatz ohne Aktionstage. Wer Aktionsmengen mitbestellen will, schaltet „Aktionsabverkäufe in der Dispo hochrechnen“ ein (Einkauf oder Einstellungen).",
+  "items": []
+ },
+ {
+  "version": "0.6.0",
+  "text": "Übersicht und Tempo:",
+  "items": [
+   "Hinweise (Ampel) links oben: unbesetzte Kassen, lange Schlangen, leere Fächer trotz Lagerware, ausverkaufte oder knappe Artikel ohne Bestellung, Ware mit Ablauf bis morgen, volles Lager, Verschmutzung, Konto im Minus – jeweils mit Abhilfe per Klick.",
+   "Tempo 0,5× (Taste 6).",
+   "Automatische Pause (Einstellungen): bei Vertreterbesuch und überlasteten Kassen (Standard an, höchstens einmal je Spielstunde) sowie optional bei Lieferungen.",
+   "Jedes Ziel zahlt eine Prämie (150 € bis 15.000 €, je nach Ziel), angezeigt am Ziel."
+  ]
+ },
+ {
+  "version": "0.5.8",
+  "text": "Vertreterbesuch: Popup oben rechts mit dem Angebot (Annehmen, Ablehnen, Details, ausblenden) und Hinweiston, solange der Außendienst im Markt wartet. Das Angebot bleibt danach bis zum Ablauf unter „Handel & Aktionen“.",
+  "items": []
+ },
+ {
+  "version": "0.5.7",
+  "text": "Kassenmodus je Kasse (Kasse anklicken): Geöffnet, Bei Bedarf (wird erst besetzt, wenn an den übrigen Kassen im Schnitt drei Kunden warten) oder Geschlossen; die letzte offene Kasse lässt sich nicht schließen. Kassierer/innen füllen Regale auf, wenn an der Kasse nichts zu tun ist, und kehren zurück, sobald jemand wartet.",
+  "items": []
+ },
+ {
+  "version": "0.5.6",
+  "text": "Weniger Ansturm: neue Kennzahl „Bekanntheit“ (Marktübersicht). Ein neuer Markt startet mit 50 % Bekanntheit; zufriedene Kundschaft lässt sie wachsen, viele abgewiesene Kunden lassen sie sinken. Nach einem Ausbau kennen die neuen Anwohner den Markt erst nach und nach. Erster Tag ca. 55 statt 125 Kunden, nach dem Ausbau zum Mini-Markt ca. 100 statt 170. Laufende Spielstände starten mit 80 %.",
+  "items": []
+ },
+ {
+  "version": "0.5.5",
+  "text": "Automatische Updates: Die installierte Windows-Version (Setup.exe) prüft beim Start auf neue Versionen, lädt sie im Hintergrund und bietet „Jetzt neu starten“ an (sonst Installation beim Beenden). Quelle: öffentliche Releases in achistyle-art/market-empire-releases, hochgeladen vom Windows-Build mit dem Secret RELEASES_TOKEN. Die ZIP-Version zeigt nur einen Hinweis.",
+  "items": []
+ },
+ {
+  "version": "0.5.4",
+  "text": "Tagesabschluss blieb hängen, wenn beim Ausbau ein Kunde noch im Auto saß; zusätzlich schließt ein Sicherheitsnetz den Tag spätestens 90 Minuten nach Tagesschluss. Versionsanzeige im Spiel.",
+  "items": []
+ },
+ {
+  "version": "0.5.3",
+  "text": "Eigener Bestätigungsdialog statt Windows-Dialog (danach nahmen Textfelder unter Windows keine Tastatureingaben mehr an).",
+  "items": []
+ },
+ {
+  "version": "0.5.2",
+  "text": "Einstellbare Auffüll-Schwelle für Warenverräumer (Personal → Regale auffüllen).",
+  "items": []
+ },
+ {
+  "version": "0.5.1",
+  "text": "Mengenfelder übernehmen Eingaben sofort beim Tippen; Bestellung direkt nach der Eingabe möglich.",
+  "items": []
+ }
+]

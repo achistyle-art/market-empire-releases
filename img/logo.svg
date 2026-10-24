@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f6b4c"/><stop offset="1" stop-color="#173b29"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7dc7b"/><stop offset="0.55" stop-color="#d9a93a"/><stop offset="1" stop-color="#a8781d"/></linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="44" fill="url(#bg)" stroke="url(#gold)" stroke-width="10"/>
+  <!-- Krone -->
+  <path d="M60 112 L72 52 L104 86 L128 40 L152 86 L184 52 L196 112 Z" fill="url(#gold)" stroke="#6e4c12" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="72" cy="50" r="9" fill="url(#gold)" stroke="#6e4c12" stroke-width="4"/>
+  <circle cx="128" cy="38" r="10" fill="url(#gold)" stroke="#6e4c12" stroke-width="4"/>
+  <circle cx="184" cy="50" r="9" fill="url(#gold)" stroke="#6e4c12" stroke-width="4"/>
+  <rect x="58" y="108" width="140" height="16" rx="4" fill="url(#gold)" stroke="#6e4c12" stroke-width="5"/>
+  <!-- Markise -->
+  <path d="M44 138 H212 L200 176 H56 Z" fill="#f4ecd8" stroke="#3b2f1e" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M68 138 H92 L88 176 H72 Z M116 138 H140 L140 176 H116 Z M164 138 H188 L184 176 H168 Z" fill="#2e7d4f"/>
+  <path d="M56 176 q8 14 16 0 q8 14 16 0 q8 14 16 0 q8 14 16 0 q8 14 16 0 q8 14 16 0 q8 14 16 0 q8 14 16 0 q8 14 16 0" fill="#f4ecd8" stroke="#3b2f1e" stroke-width="4"/>
+  <!-- Ladenfront -->
+  <rect x="64" y="190" width="128" height="38" rx="3" fill="#e8d6ae" stroke="#3b2f1e" stroke-width="5"/>
+  <rect x="80" y="198" width="34" height="30" fill="#9cc3d5" stroke="#3b2f1e" stroke-width="4"/>
+  <rect x="142" y="198" width="34" height="30" fill="#9cc3d5" stroke="#3b2f1e" stroke-width="4"/>
+</svg>
