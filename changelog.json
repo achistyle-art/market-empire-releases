@@ -1,5 +1,15 @@
 [
  {
+  "version": "0.9.0",
+  "text": "Drei neue Spielsysteme für das mittlere und späte Spiel:",
+  "items": [
+   "Warengruppen-Auswertung (Finanzen → Warengruppen): Umsatz, Rohertrag, Spanne, Abschriften, Inventurdifferenzen, Deckungsbeitrag, Regalfläche und Umsatz je m² für jede Warengruppe, mit Hinweisen, welche Abteilung Geld verliert oder zu viel Fläche belegt.",
+   "Monatsbericht (Finanzen → Monatsbericht) mit Vergleich zum Vormonat, Gewinnern und Verlierern unter den Warengruppen und einer Meldung zum Monatsende.",
+   "Kundenkarte mit Bonusaktionen (Marketing → Kundenkarte, nach der Forschung „Kundenkarte & Bonusprogramm“): Mitglieder sammeln Punkte (1 % ihres Umsatzes als laufende Kosten). Fünf Aktionen – 10-fach und 5-fach Punkte auf eine Warengruppe, Coupon „5 € ab 30 €“, doppelte Punkte am Wochenende, Anmeldebonus – kosten eine nach Marktgröße gestaffelte Grundgebühr plus eingelöste Punkte bzw. Coupons. Jede Aktion wird gegen die 14 Öffnungstage davor gemessen; das Ergebnis zeigt, ob sie sich gelohnt hat.",
+   "Unternehmenswert und Langzeitziel (Karriere → Unternehmen): Wert = Vermögen − Schulden + 4 × Jahresgewinn. Fünf Meilensteine von „Etablierter Kaufmann“ (250.000 €) bis „Handelskonzern“ (20 Mio. €) bringen dauerhaft Einkaufsrabatte (bis 3 %, auch für Filialen) und mehr Kreditrahmen. Jedes Jahresende vergibt eine Jury die Auszeichnung „Nahversorger des Jahres“ bzw. ab drei Filialen „Handelskette des Jahres“ (Preisgeld, Ruf, Stammkunden). Als Abschluss der Börsengang: ab 20 Mio. € Unternehmenswert, sechs Filialen, drei Gewinnmonaten in Folge und gutem Ruf; danach geht es frei weiter, der Aktienkurs folgt dem Unternehmenswert."
+  ]
+ },
+ {
   "version": "0.8.7",
   "text": "Beratertipps: Helga Lindner aus dem Tutorial meldet sich einmalig, sobald eine Funktion des mittleren und späten Spiels wichtig wird (Dienstplan beim ersten Mitarbeiter, Kassenbesetzung, Personalraum, Pfandautomat, Kredit für den Ausbau, Öffnungszeiten, automatische Disposition, Preise bei Inflation, Gegenmaßnahmen gegen Konkurrenz, Filialen). Neue wechselnde Tipps und ein aktualisierter Ausblick am Ende des Tutorials.",
   "items": []
