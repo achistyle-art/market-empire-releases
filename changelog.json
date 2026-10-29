@@ -1,5 +1,10 @@
 [
  {
+  "version": "0.9.1",
+  "text": "Unternehmenswert ruhiger: Der Ertragswert stützt sich auf das Ergebnis der letzten 180 statt 90 Tage, damit ein einzelner schwacher Monat den Wert nicht halbiert.",
+  "items": []
+ },
+ {
   "version": "0.9.0",
   "text": "Drei neue Spielsysteme für das mittlere und späte Spiel:",
   "items": [
