@@ -1,5 +1,10 @@
 [
  {
+  "version": "0.10.0",
+  "text": "Online im Browser: Spielserver mit Registrierung und Anmeldung (Spielername und Passwort, E-Mail freiwillig), Profil mit Avatar, Profiltext und Sichtbarkeit, fünf Cloud-Speicherplätzen plus automatischer Cloud-Sicherung nach jedem Spieltag und Bestenlisten für Unternehmenswert, schnellsten Börsengang, Erfolge und jedes Szenario. Der Server berechnet alle Ranglistenwerte selbst mit derselben Simulation und wertet nur Spiele ohne Cheats, mit stimmiger Kasse, online begonnen und in möglichem Spieltempo. Dazu Datenexport und Kontolöschung, Moderation, Datenschutzhinweise, Docker-Image mit HTTPS über Caddy und eine Betriebsanleitung (docs/ONLINE-BETRIEB.md).",
+  "items": []
+ },
+ {
   "version": "0.9.2",
   "text": "Langzeitziel nachjustiert: Ein vollständiges, gut gewähltes Filialnetz erwirtschaftet rund 2 Mio. € im Jahr – die oberen Meilensteine liegen deshalb jetzt bei 6 Mio. € („Überregionaler Händler“) und 12 Mio. € („Handelskonzern“, Börsengang möglich) statt 8 und 20 Mio. €. Bei der Auszeichnung des Jahres sind die Mitbewerber etwas schwächer (Siegerwerte meist 60–75 Punkte), und als Nahversorger zählen schon 400 statt 600 Kunden am Tag voll.",
   "items": []
