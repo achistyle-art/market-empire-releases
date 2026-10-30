@@ -5,6 +5,10 @@
 # tägliche Datensicherung ein. Mehrfaches Ausführen ist unbedenklich (aktualisiert auf die neueste Version).
 set -euo pipefail
 
+# Alles in einer Funktion: Bei „curl | bash“ liest bash so das ganze Skript ein, bevor ein Befehl
+# (z. B. docker exec) die Standardeingabe lesen und den Rest des Skripts verschlucken kann.
+main() {
+
 DIR=/opt/market-empire
 
 say() { printf '\n\033[1;32m▶ %s\033[0m\n' "$*"; }
@@ -90,7 +94,7 @@ EOF
 
 say "Spiel herunterladen"
 cd "$DIR"
-if ! docker compose pull 2>/tmp/me-pull.log; then
+if ! docker compose pull </dev/null 2>/tmp/me-pull.log; then
   if grep -qiE 'denied|unauthorized' /tmp/me-pull.log; then
     fail "Das Spiel-Image ist noch nicht öffentlich. Auf GitHub unter Packages → market-empire-server → Package settings → „Change visibility“ auf Public stellen und das Skript erneut starten."
   fi
@@ -99,7 +103,7 @@ if ! docker compose pull 2>/tmp/me-pull.log; then
 fi
 
 say "Spiel starten"
-docker compose up -d --remove-orphans
+docker compose up -d --remove-orphans </dev/null
 
 say "Tägliche Datensicherung einrichten"
 cat > /etc/cron.daily/market-empire-sicherung <<'EOF'
@@ -122,10 +126,10 @@ say "Prüfen"
 IP=$(curl -fsS -4 https://api.ipify.org 2>/dev/null || hostname -I | awk '{print $1}')
 ok=""
 for _ in $(seq 1 30); do
-  if docker compose exec -T spiel wget -qO- http://127.0.0.1:3100/api/status >/dev/null 2>&1; then ok=1; break; fi
+  if docker compose exec -T spiel wget -qO- http://127.0.0.1:3100/api/status </dev/null >/dev/null 2>&1; then ok=1; break; fi
   sleep 2
 done
-[ -n "$ok" ] || { docker compose logs --tail 50 spiel; fail "Der Spielserver antwortet nicht."; }
+[ -n "$ok" ] || { docker compose logs --tail 50 spiel </dev/null; fail "Der Spielserver antwortet nicht."; }
 
 echo
 echo "✅ MARKET EMPIRE läuft."
@@ -141,3 +145,6 @@ else
 fi
 echo "   Ports 80 und 443 müssen in der Firewall des Anbieters offen sein (IONOS: Cloud Panel → Netzwerk → Firewall-Richtlinien)."
 echo "   Aktualisieren: dieses Skript erneut ausführen. Protokolle: cd $DIR && docker compose logs -f"
+}
+
+main "$@"
