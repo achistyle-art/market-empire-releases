@@ -21,7 +21,7 @@ command -v apt-get >/dev/null || fail "Dieses Skript ist für Debian/Ubuntu geda
 ask() { local prompt="$1" def="$2" ans=""; read -r -p "$prompt" ans </dev/tty || true; echo "${ans:-$def}"; }
 
 mkdir -p "$DIR"
-DOMAIN=""; ADMINS=""
+DOMAIN=""; ADMINS=""; SMTP_BENUTZER=""; SMTP_HOST=""; SMTP_PORT=""
 [ -f "$DIR/.env" ] && . "$DIR/.env"
 if [ -z "${MARKET_EMPIRE_UNATTENDED:-}" ]; then
   echo
@@ -29,12 +29,29 @@ if [ -z "${MARKET_EMPIRE_UNATTENDED:-}" ]; then
   echo "Domain leer lassen, um zunächst ohne Domain über http://<Server-IP> zu testen."
   DOMAIN=$(ask "Domain für das Spiel (z. B. spiel.example.de) [${DOMAIN:-keine}]: " "$DOMAIN")
   ADMINS=$(ask "Spielername(n) mit Moderationsrechten, kommagetrennt [${ADMINS:-keine}]: " "$ADMINS")
+  echo
+  echo "E-Mail-Versand (Bestätigungscodes bei der Registrierung, „Passwort vergessen“)."
+  echo "Postfach leer lassen = ohne E-Mail-Bestätigung. Bei IONOS: smtp.ionos.de, Port 587."
+  SMTP_BENUTZER=$(ask "Absender-Postfach (z. B. game@cargesia.com) [${SMTP_BENUTZER:-keins}]: " "$SMTP_BENUTZER")
+  if [ -n "$SMTP_BENUTZER" ]; then
+    SMTP_HOST=$(ask "SMTP-Server [${SMTP_HOST:-smtp.ionos.de}]: " "${SMTP_HOST:-smtp.ionos.de}")
+    SMTP_PORT=$(ask "SMTP-Port (587 = STARTTLS, 465 = SSL) [${SMTP_PORT:-587}]: " "${SMTP_PORT:-587}")
+    PW_HINWEIS="neu eingeben"; [ -s "$DIR/smtp-passwort" ] && PW_HINWEIS="leer lassen = bisheriges behalten"
+    PW=""; read -r -s -p "Passwort des Postfachs ($PW_HINWEIS, Eingabe bleibt unsichtbar): " PW </dev/tty || true; echo
+    if [ -n "$PW" ]; then (umask 077; printf '%s' "$PW" > "$DIR/smtp-passwort"); fi
+    unset PW
+    [ -s "$DIR/smtp-passwort" ] || fail "Ohne Passwort kann der Server keine E-Mails senden. Bitte das Skript erneut starten."
+  fi
 fi
 # Eingaben wie „https://spiel.example.de/“ auf den reinen Domainnamen kürzen
 DOMAIN=$(printf '%s' "$DOMAIN" | sed -E 's#^[A-Za-z]+://##; s#/.*$##; s#:.*$##' | tr -d '[:space:]' | tr 'A-Z' 'a-z')
 ADMINS=$(printf '%s' "$ADMINS" | tr -d '[:space:]')
 case "$DOMAIN" in *[!A-Za-z0-9.-]*) fail "Ungültige Domain: $DOMAIN" ;; esac
 case "$ADMINS" in *[!A-Za-z0-9ÄÖÜäöüß_.,-]*) fail "Ungültige Spielernamen: $ADMINS" ;; esac
+SMTP_BENUTZER=$(printf '%s' "$SMTP_BENUTZER" | tr -d '[:space:]')
+case "$SMTP_BENUTZER" in ""|*@*.*) ;; *) fail "Ungültiges Postfach: $SMTP_BENUTZER" ;; esac
+case "$SMTP_BENUTZER$SMTP_HOST$SMTP_PORT" in *[!A-Za-z0-9@._+-]*) fail "Ungültige SMTP-Angaben" ;; esac
+[ -n "$SMTP_BENUTZER" ] || { SMTP_HOST=""; SMTP_PORT=""; }
 
 say "System aktualisieren und Docker installieren"
 export DEBIAN_FRONTEND=noninteractive
@@ -52,8 +69,10 @@ fi
 systemctl enable --now docker >/dev/null
 
 say "Konfiguration schreiben ($DIR)"
-printf 'DOMAIN=%s\nADMINS=%s\n' "$DOMAIN" "$ADMINS" > "$DIR/.env"
+printf 'DOMAIN=%s\nADMINS=%s\nSMTP_BENUTZER=%s\nSMTP_HOST=%s\nSMTP_PORT=%s\n' "$DOMAIN" "$ADMINS" "$SMTP_BENUTZER" "$SMTP_HOST" "$SMTP_PORT" > "$DIR/.env"
 chmod 600 "$DIR/.env"
+# Passwortdatei: nur für den Spielserver lesbar (läuft im Container als Benutzer „node“, UID 1000)
+touch "$DIR/smtp-passwort"; chown 1000:1000 "$DIR/smtp-passwort"; chmod 600 "$DIR/smtp-passwort"
 
 if [ -n "$DOMAIN" ]; then SITE="$DOMAIN"; else SITE=":80"; fi
 cat > "$DIR/Caddyfile" <<EOF
@@ -74,8 +93,14 @@ services:
     restart: unless-stopped
     environment:
       ADMINS: "${ADMINS:-}"
+      SMTP_HOST: "${SMTP_HOST:-}"
+      SMTP_PORT: "${SMTP_PORT:-587}"
+      SMTP_BENUTZER: "${SMTP_BENUTZER:-}"
+      SMTP_ABSENDER: "MARKET EMPIRE <${SMTP_BENUTZER:-}>"
+      SMTP_PASSWORT_DATEI: /run/smtp-passwort
     volumes:
       - spiel-daten:/app/data
+      - ./smtp-passwort:/run/smtp-passwort:ro
   caddy:
     image: caddy:2-alpine
     restart: unless-stopped
@@ -142,6 +167,11 @@ if [ -n "$DOMAIN" ]; then
   fi
 else
   echo "   Test ohne Domain: http://$IP"
+fi
+if [ -n "$SMTP_BENUTZER" ]; then
+  echo "   E-Mails gehen über $SMTP_HOST als $SMTP_BENUTZER. Test: Admin-Bereich → „Test-Mail senden“."
+else
+  echo "   E-Mail-Versand nicht eingerichtet: Konten werden ohne E-Mail-Bestätigung angelegt."
 fi
 echo "   Ports 80 und 443 müssen in der Firewall des Anbieters offen sein (IONOS: Cloud Panel → Netzwerk → Firewall-Richtlinien)."
 echo "   Aktualisieren: dieses Skript erneut ausführen. Protokolle: cd $DIR && docker compose logs -f"
