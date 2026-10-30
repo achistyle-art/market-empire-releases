@@ -26,6 +26,9 @@ if [ -z "${MARKET_EMPIRE_UNATTENDED:-}" ]; then
   DOMAIN=$(ask "Domain für das Spiel (z. B. spiel.example.de) [${DOMAIN:-keine}]: " "$DOMAIN")
   ADMINS=$(ask "Spielername(n) mit Moderationsrechten, kommagetrennt [${ADMINS:-keine}]: " "$ADMINS")
 fi
+# Eingaben wie „https://spiel.example.de/“ auf den reinen Domainnamen kürzen
+DOMAIN=$(printf '%s' "$DOMAIN" | sed -E 's#^[A-Za-z]+://##; s#/.*$##; s#:.*$##' | tr -d '[:space:]' | tr 'A-Z' 'a-z')
+ADMINS=$(printf '%s' "$ADMINS" | tr -d '[:space:]')
 case "$DOMAIN" in *[!A-Za-z0-9.-]*) fail "Ungültige Domain: $DOMAIN" ;; esac
 case "$ADMINS" in *[!A-Za-z0-9ÄÖÜäöüß_.,-]*) fail "Ungültige Spielernamen: $ADMINS" ;; esac
 
