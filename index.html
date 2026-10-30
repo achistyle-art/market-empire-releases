@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>MARKET EMPIRE</title>
-<meta name="description" content="MARKET EMPIRE – Wirtschaftssimulation für Windows: vom kleinen Nachbarschaftsladen zum Handelsimperium.">
+<meta name="description" content="MARKET EMPIRE – Wirtschaftssimulation im Browser: vom kleinen Nachbarschaftsladen zum Handelsimperium. Kostenlos, ohne Download, mit Bestenliste.">
 <meta property="og:title" content="MARKET EMPIRE">
-<meta property="og:description" content="Vom Nachbarschaftsladen zum Handelsimperium – Supermarkt-Wirtschaftssimulation für Windows.">
+<meta property="og:description" content="Vom Nachbarschaftsladen zum Handelsimperium – Supermarkt-Wirtschaftssimulation im Browser.">
 <meta property="og:image" content="img/markt-ui.jpg">
 <link rel="icon" href="img/logo.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
@@ -40,7 +40,7 @@
   <section id="start" class="hero">
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow"><span lang="de">Wirtschaftssimulation im Browser und für Windows</span><span lang="en">Business simulation in your browser and for Windows</span></p>
+        <p class="eyebrow"><span lang="de">Wirtschaftssimulation im Browser</span><span lang="en">Business simulation in your browser</span></p>
         <h1>MARKET EMPIRE</h1>
         <p class="lede">
           <span lang="de">Vom Nachbarschaftsladen an der Lindenstraße zum Handelsimperium. Richten Sie Regale ein, bestellen Sie Ware mit Blick aufs MHD, planen Sie Schichten und behaupten Sie sich gegen die Discounter der Stadt.</span>
@@ -50,13 +50,11 @@
           <a class="btn btn-gold" href="/spielen/" data-online>
             <span lang="de">▶ Jetzt im Browser spielen</span><span lang="en">▶ Play now in your browser</span>
           </a>
-          <a class="btn btn-ghost" id="dl-main" href="https://github.com/achistyle-art/market-empire-releases/releases/latest" rel="noopener">
-            <span lang="de">Für Windows herunterladen</span><span lang="en">Download for Windows</span>
-          </a>
+          <a class="btn btn-ghost" href="#neuigkeiten"><span lang="de">Was ist neu?</span><span lang="en">What's new?</span></a>
         </div>
-        <p class="meta" id="dl-meta">
-          <span lang="de">Kostenlos · im Browser mit Konto, Cloud-Spielständen und Bestenliste · oder als Windows-Version mit automatischen Updates</span>
-          <span lang="en">Free · in your browser with account, cloud saves and leaderboard · or as a Windows version with automatic updates</span>
+        <p class="meta">
+          <span lang="de">Kostenlos · ohne Download · Konto, Cloud-Spielstände und Bestenliste · Deutsch &amp; English</span>
+          <span lang="en">Free · no download · account, cloud saves and leaderboard · German &amp; English</span>
         </p>
       </div>
 
@@ -67,19 +65,16 @@
         <div class="receipt-rule" aria-hidden="true"></div>
         <dl class="receipt-lines">
           <div><dt><span lang="de">Neueste Version</span><span lang="en">Latest version</span></dt><dd id="bon-version">–</dd></div>
-          <div><dt><span lang="de">Veröffentlicht</span><span lang="en">Released</span></dt><dd id="bon-date">–</dd></div>
-          <div><dt><span lang="de">Installer (Setup.exe)</span><span lang="en">Installer (Setup.exe)</span></dt><dd id="bon-size">–</dd></div>
+          <div><dt><span lang="de">Stand</span><span lang="en">Updated</span></dt><dd id="bon-date">–</dd></div>
+          <div><dt><span lang="de">Download</span><span lang="en">Download</span></dt><dd><span lang="de">keiner nötig</span><span lang="en">none needed</span></dd></div>
           <div><dt><span lang="de">Preis</span><span lang="en">Price</span></dt><dd class="price"><span lang="de">0,00 €</span><span lang="en">€0.00</span></dd></div>
         </dl>
         <div class="receipt-rule" aria-hidden="true"></div>
         <p class="receipt-total"><span><span lang="de">SUMME</span><span lang="en">TOTAL</span></span><span class="price"><span lang="de">0,00 €</span><span lang="en">€0.00</span></span></p>
-        <p class="receipt-note">
-          <span lang="de">Das installierte Spiel aktualisiert sich selbst.</span>
-          <span lang="en">The installed game updates itself.</span>
-        </p>
+        <p class="receipt-note" id="bon-news"></p>
         <div class="receipt-links">
-          <a id="bon-setup" href="https://github.com/achistyle-art/market-empire-releases/releases/latest" rel="noopener">Setup.exe</a>
-          <a id="bon-zip" href="https://github.com/achistyle-art/market-empire-releases/releases/latest" rel="noopener"><span lang="de">Portable ZIP</span><span lang="en">Portable ZIP</span></a>
+          <a href="/spielen/" data-online><span lang="de">Jetzt spielen</span><span lang="en">Play now</span></a>
+          <a href="#neuigkeiten"><span lang="de">Was ist neu?</span><span lang="en">What's new?</span></a>
         </div>
         <p class="receipt-thanks"><span lang="de">Vielen Dank für Ihren Einkauf!</span><span lang="en">Thank you for shopping with us!</span></p>
       </aside>
@@ -150,13 +145,13 @@
   <!-- Neuigkeiten -->
   <section id="neuigkeiten" class="band">
     <div class="wrap">
-      <h2><span lang="de">Neuigkeiten und Versionen</span><span lang="en">News and releases</span></h2>
+      <h2><span lang="de">Neuigkeiten</span><span lang="en">News</span></h2>
       <p class="section-lede">
-        <span lang="de">Jede Änderung bekommt eine eigene Versionsnummer. Das installierte Spiel lädt neue Versionen automatisch.</span>
-        <span lang="en">Every change gets its own version number. The installed game downloads new versions automatically.</span>
+        <span lang="de">Das Spiel wird laufend weiterentwickelt. Jede Änderung bekommt eine Versionsnummer – und Sie spielen beim nächsten Aufruf automatisch die neueste.</span>
+        <span lang="en">The game is constantly being developed. Every change gets a version number – and the next time you play, you automatically get the latest one.</span>
       </p>
       <ol class="releases" id="releases" aria-live="polite">
-        <li class="release-empty"><span lang="de">Versionen werden geladen …</span><span lang="en">Loading releases …</span></li>
+        <li class="release-empty"><span lang="de">Neuigkeiten werden geladen …</span><span lang="en">Loading news …</span></li>
       </ol>
       <button type="button" class="btn btn-ghost" id="more-releases" hidden><span lang="de">Ältere Versionen anzeigen</span><span lang="en">Show older releases</span></button>
     </div>
@@ -223,7 +218,7 @@
           <h3><span lang="de">In Vorbereitung</span><span lang="en">In preparation</span></h3>
           <ul>
             <li><span lang="de">Veröffentlichung auf Steam mit Steam-Erfolgen</span><span lang="en">Steam release with Steam achievements</span></li>
-            <li><span lang="de">Signierter Installer (keine Windows-Warnung mehr)</span><span lang="en">Signed installer (no more Windows warning)</span></li>
+            <li><span lang="de">Desktop-Version für Windows</span><span lang="en">Desktop version for Windows</span></li>
           </ul>
         </div>
         <div class="lane">
@@ -243,24 +238,24 @@
     <div class="wrap faq">
       <h2><span lang="de">Häufige Fragen</span><span lang="en">FAQ</span></h2>
       <details>
-        <summary><span lang="de">Windows warnt beim Start („Der Computer wurde durch Windows geschützt“). Ist das gefährlich?</span><span lang="en">Windows shows “Windows protected your PC”. Is that dangerous?</span></summary>
-        <p><span lang="de">Nein. Der Installer ist noch nicht digital signiert, deshalb kennt Windows SmartScreen ihn nicht. Klicken Sie auf „Weitere Informationen“ und dann auf „Trotzdem ausführen“. Ein signierter Installer ist in Vorbereitung.</span><span lang="en">No. The installer isn't digitally signed yet, so Windows SmartScreen doesn't recognise it. Click “More info” and then “Run anyway”. A signed installer is in preparation.</span></p>
+        <summary><span lang="de">Muss ich etwas installieren?</span><span lang="en">Do I need to install anything?</span></summary>
+        <p><span lang="de">Nein. MARKET EMPIRE läuft direkt im Browser – einfach auf „Jetzt im Browser spielen“ klicken. Ein aktueller Chrome, Edge, Firefox oder Safari genügt.</span><span lang="en">No. MARKET EMPIRE runs right in your browser – just click “Play now in your browser”. A current Chrome, Edge, Firefox or Safari is all you need.</span></p>
       </details>
       <details>
-        <summary><span lang="de">Mein Virenscanner meldet einen Fehler oder blockiert den Download.</span><span lang="en">My antivirus reports an error or blocks the download.</span></summary>
-        <p><span lang="de">Unsignierte, neue Programme werden von manchen Scannern vorsorglich geprüft oder blockiert. Das Spiel wird automatisch und nachvollziehbar auf GitHub gebaut. Bleibt die Meldung, nutzen Sie die portable ZIP-Version oder melden Sie den Fall über das Formular oben.</span><span lang="en">Some scanners check or block new, unsigned programs as a precaution. The game is built automatically and transparently on GitHub. If the warning persists, use the portable ZIP version or report it via the form above.</span></p>
+        <summary><span lang="de">Brauche ich ein Konto?</span><span lang="en">Do I need an account?</span></summary>
+        <p><span lang="de">Zum Ausprobieren nicht – ohne Konto speichert das Spiel in Ihrem Browser. Mit einem kostenlosen Konto werden Ihre Spielstände in der Cloud gesichert, Sie können auf jedem Gerät weiterspielen, haben ein Profil und erscheinen in der Bestenliste. Dafür genügen Spielername und Passwort, eine E-Mail-Adresse ist freiwillig.</span><span lang="en">Not to try it out – without an account the game saves in your browser. With a free account your saves are backed up in the cloud, you can continue on any device, get a profile and appear on the leaderboard. A player name and password are enough; an email address is optional.</span></p>
+      </details>
+      <details>
+        <summary><span lang="de">Wie kommt mein Spiel in die Bestenliste?</span><span lang="en">How does my game get onto the leaderboard?</span></summary>
+        <p><span lang="de">Melden Sie sich spätestens am 14. Spieltag an – dann zählt das Spiel automatisch. Der Server berechnet die Werte selbst aus Ihrem Cloud-Spielstand; Spiele mit Cheats zählen nicht.</span><span lang="en">Sign in by day 14 at the latest – then the game counts automatically. The server calculates the values itself from your cloud save; games with cheats do not count.</span></p>
       </details>
       <details>
         <summary><span lang="de">Wie bekomme ich Updates?</span><span lang="en">How do I get updates?</span></summary>
-        <p><span lang="de">Die installierte Version (Setup.exe) prüft beim Start auf neue Versionen und installiert sie mit einem Klick. Die portable ZIP-Version zeigt nur einen Hinweis; dort laden Sie die neue Version selbst herunter.</span><span lang="en">The installed version (Setup.exe) checks for new versions on start and installs them with one click. The portable ZIP version only shows a notice; download the new version yourself.</span></p>
+        <p><span lang="de">Automatisch: Beim nächsten Aufruf spielen Sie schon die neueste Version. Was sich geändert hat, steht oben unter „Neuigkeiten“ und im Hauptmenü des Spiels.</span><span lang="en">Automatically: the next time you open the game you are already playing the latest version. What has changed is listed above under “News” and in the game's main menu.</span></p>
       </details>
       <details>
-        <summary><span lang="de">Wo liegen meine Spielstände?</span><span lang="en">Where are my save games?</span></summary>
-        <p><span lang="de">Lokal auf Ihrem Rechner im Benutzerprofil. Updates lassen sie unverändert; das Spiel speichert nach jedem Spieltag automatisch.</span><span lang="en">Locally on your PC in your user profile. Updates leave them untouched; the game autosaves after every in-game day.</span></p>
-      </details>
-      <details>
-        <summary><span lang="de">Welche Systemvoraussetzungen braucht das Spiel?</span><span lang="en">What are the system requirements?</span></summary>
-        <p><span lang="de">Windows 10 oder 11 (64 Bit), 4 GB RAM, rund 300 MB freier Speicher und eine beliebige Grafikkarte der letzten zehn Jahre. In den Einstellungen lässt sich die Grafikqualität reduzieren.</span><span lang="en">Windows 10 or 11 (64-bit), 4 GB RAM, about 300 MB of free disk space and any graphics card from the last ten years. You can lower the graphics quality in the settings.</span></p>
+        <summary><span lang="de">Welche Geräte eignen sich?</span><span lang="en">Which devices work?</span></summary>
+        <p><span lang="de">Am besten ein PC oder Laptop mit Maus. Auf Tablets läuft das Spiel auch, ist dort aber etwas fummeliger. In den Einstellungen lässt sich die Grafikqualität reduzieren, falls es ruckelt.</span><span lang="en">A PC or laptop with a mouse works best. The game also runs on tablets but is a little fiddlier there. You can lower the graphics quality in the settings if it stutters.</span></p>
       </details>
       <details>
         <summary><span lang="de">Kommt das Spiel auf Steam?</span><span lang="en">Is the game coming to Steam?</span></summary>

@@ -6,7 +6,6 @@
 
   const REPO = 'achistyle-art/market-empire-releases';
   const API = `https://api.github.com/repos/${REPO}`;
-  const RELEASES_PAGE = `https://github.com/${REPO}/releases`;
   const SHOWN = 6;
   // Spielserver: Auf dem eigenen Server liegt die Website unter /, das Spiel unter /spielen/.
   // Liegt die Website anderswo (GitHub Pages, eigener Webspace), zeigen Spiel- und Rechtslinks auf den Spielserver.
@@ -37,7 +36,6 @@
   applyLang(lang);
 
   const fmtDate = (iso) => new Date(iso).toLocaleDateString(t('de-DE', 'en-GB'), { day: 'numeric', month: 'long', year: 'numeric' });
-  const fmtSize = (bytes) => `${(bytes / 1048576).toLocaleString(t('de-DE', 'en-GB'), { maximumFractionDigits: 0 })} MB`;
   const el = (tag, props = {}, ...kids) => {
     const n = document.createElement(tag);
     for (const [k, v] of Object.entries(props)) {
@@ -53,76 +51,48 @@
     return r.json();
   }
 
-  // ---------------------------------------------------------------- Versionen
-  const cleanVersion = (tag) => String(tag || '').replace(/^v/i, '');
-  const asset = (rel, suffix) => (rel.assets || []).find((a) => a.name.endsWith(suffix));
-
-  let releases = null;   // GitHub-Releases (null: noch nicht geladen, []: keine oder nicht erreichbar)
-  let changelog = [];    // [{version, text, items}]
+  // ---------------------------------------------------------------- Neuigkeiten
+  // Quelle ist changelog.json: bei jeder neuen Version automatisch aus der README des Spiels erzeugt.
+  let changelog = null;  // [{version, date, text, items}] (null: noch nicht geladen)
   let showAll = false;
 
   function renderReceipt() {
-    const latest = releases && releases[0];
+    const latest = changelog && changelog[0];
     if (!latest) return;
-    const setup = asset(latest, '-Setup.exe'), zip = asset(latest, '-Windows-x64.zip');
-    $('bon-version').textContent = cleanVersion(latest.tag_name);
-    $('bon-date').textContent = fmtDate(latest.published_at);
-    $('bon-size').textContent = setup ? fmtSize(setup.size) : '–';
-    if (setup) { $('bon-setup').href = setup.browser_download_url; $('dl-main').href = setup.browser_download_url; }
-    if (zip) $('bon-zip').href = zip.browser_download_url;
+    $('bon-version').textContent = latest.version;
+    $('bon-date').textContent = latest.date ? fmtDate(latest.date) : '–';
+    const first = (latest.items && latest.items[0]) || latest.text || '';
+    $('bon-news').textContent = first ? `${t('Neu', 'New')}: ${first.replace(/\s*\(.*$/, '').slice(0, 90)}${first.length > 90 ? ' …' : ''}` : '';
   }
 
   function renderReleases() {
     const list = $('releases');
-    const byVersion = new Map(changelog.map((c) => [c.version, c]));
-    // Releases mit Beschreibung aus der README; ohne erreichbare API nur die Änderungsliste
-    const entries = releases && releases.length
-      ? releases.map((r) => ({ version: cleanVersion(r.tag_name), date: r.published_at, rel: r, log: byVersion.get(cleanVersion(r.tag_name)) }))
-      : changelog.map((c) => ({ version: c.version, log: c }));
     list.replaceChildren();
-    if (!entries.length) {
-      list.append(el('li', { class: 'release-empty' }, releases === null ? t('Versionen werden geladen …', 'Loading releases …') : t('Noch keine Versionen veröffentlicht.', 'No releases published yet.')));
+    if (!changelog || !changelog.length) {
+      list.append(el('li', { class: 'release-empty' }, changelog === null ? t('Neuigkeiten werden geladen …', 'Loading news …') : t('Noch keine Neuigkeiten.', 'No news yet.')));
       $('more-releases').hidden = true;
       return;
     }
-    entries.slice(0, showAll ? entries.length : SHOWN).forEach((e, i) => {
+    changelog.slice(0, showAll ? changelog.length : SHOWN).forEach((e, i) => {
       const head = el('div', { class: 'release-head' },
         el('h3', { text: `Version ${e.version}` }),
         e.date ? el('span', { class: 'release-date', text: fmtDate(e.date) }) : null,
         i === 0 ? el('span', { class: 'badge', text: t('NEU', 'NEW') }) : null);
       const body = [];
-      if (e.log) {
-        if (e.log.text) body.push(el('p', { text: e.log.text }));
-        if (e.log.items && e.log.items.length) body.push(el('ul', {}, e.log.items.map((it) => el('li', { text: it }))));
-      } else if (e.rel && e.rel.body) {
-        body.push(el('p', { text: e.rel.body.replace(/[#*_`>]/g, '').trim().slice(0, 600) }));
-      }
-      if (e.rel) {
-        const setup = asset(e.rel, '-Setup.exe'), zip = asset(e.rel, '-Windows-x64.zip');
-        body.push(el('p', { class: 'release-dl' },
-          setup ? el('a', { href: setup.browser_download_url, rel: 'noopener', text: `Setup.exe (${fmtSize(setup.size)})` }) : null,
-          zip ? el('a', { href: zip.browser_download_url, rel: 'noopener', text: `${t('Portable ZIP', 'Portable ZIP')} (${fmtSize(zip.size)})` }) : null,
-          el('a', { href: e.rel.html_url, rel: 'noopener', text: t('Details auf GitHub', 'Details on GitHub') })));
-      }
+      if (e.text) body.push(el('p', { text: e.text }));
+      if (e.items && e.items.length) body.push(el('ul', {}, e.items.map((it) => el('li', { text: it }))));
       list.append(el('li', { class: i === 0 ? 'release latest' : 'release' }, head, body));
     });
-    const more = $('more-releases');
-    more.hidden = showAll || entries.length <= SHOWN;
+    $('more-releases').hidden = showAll || changelog.length <= SHOWN;
   }
 
   $('more-releases').addEventListener('click', () => { showAll = true; renderReleases(); });
 
-  fetch('changelog.json').then((r) => (r.ok ? r.json() : [])).catch(() => []).then((c) => {
+  fetch('changelog.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : [])).catch(() => []).then((c) => {
     changelog = Array.isArray(c) ? c : [];
-    if (releases !== null || !changelog.length) renderReleases();
-  });
-  getJson(`${API}/releases?per_page=50`).then((rs) => rs.filter((r) => !r.draft && !r.prerelease)).catch(() => []).then((rs) => {
-    releases = rs;
     renderReceipt();
     renderReleases();
   });
-  // nach 4 s ohne API-Antwort wenigstens die Änderungsliste zeigen
-  setTimeout(() => { if (releases === null && changelog.length) renderReleases(); }, 4000);
 
   // ---------------------------------------------------------------- Vorschläge
   let ideas = null;
