@@ -207,3 +207,7 @@ html[data-lang="de"] [lang="en"], html[data-lang="en"] [lang="de"] { display: no
   .features, .gallery, .roadmap { grid-template-columns: 1fr; }
   .cta .btn { width: 100%; }
 }
+
+/* Ankündigung aus dem Admin-Bereich */
+.announcement { background: var(--gold); color: var(--green-deep); font-weight: 600; padding: 10px 0; text-align: center; border-bottom: 1px solid #8a6a1c; }
+.legal .muted { color: var(--ink-soft); font-size: 15px; margin-top: 2em; }

@@ -8,6 +8,11 @@
   const API = `https://api.github.com/repos/${REPO}`;
   const RELEASES_PAGE = `https://github.com/${REPO}/releases`;
   const SHOWN = 6;
+  // Spielserver: Auf dem eigenen Server liegt die Website unter /, das Spiel unter /spielen/.
+  // Liegt die Website anderswo (GitHub Pages, eigener Webspace), zeigen Spiel- und Rechtslinks auf den Spielserver.
+  const GAME_ORIGIN = 'https://markt.cargesia.com';
+  const onGameServer = location.origin === GAME_ORIGIN || /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+  if (!onGameServer) document.querySelectorAll('a[data-online]').forEach((a) => { a.href = GAME_ORIGIN + a.getAttribute('href'); });
   const $ = (id) => document.getElementById(id);
 
   // ---------------------------------------------------------------- Sprache
@@ -203,4 +208,16 @@
 
   // Sprachwechsel: dynamische Inhalte neu aufbauen
   listeners.push(() => { renderReceipt(); renderReleases(); renderIdeas(); });
+})();
+
+// Ankündigung aus dem Admin-Bereich (nur auf dem Spielserver)
+(() => {
+  const GAME_ORIGIN = 'https://markt.cargesia.com';
+  const own = location.origin === GAME_ORIGIN || /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
+  if (!own) return;
+  fetch('/api/status').then((r) => (r.ok ? r.json() : null)).then((s) => {
+    if (!s || !s.announcement) return;
+    document.getElementById('announcement-text').textContent = '📢 ' + s.announcement;
+    document.getElementById('announcement').hidden = false;
+  }).catch(() => {});
 })();
