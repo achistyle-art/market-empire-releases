@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.25.1",
+  "date": "2026-10-31",
+  "text": "Aufgeräumteres Spielbild: Regale zeigen ihr Namensschild nur noch, wenn Sie mit der Maus darauf zeigen, sie auswählen oder nah heranzoomen – der Füllstandsbalken bleibt immer sichtbar. Lagerhalle und Kühlhaus hinter dem Markt überdecken das Lager nicht mehr. Das Spiel startet näher am Markt.",
+  "items": []
+ },
+ {
   "version": "0.25.0",
   "date": "2026-10-31",
   "text": "Mehr Leben in den Bestenlisten: Die Händler aus der Region haben jetzt eigene Profile mit Bestwert, Medaillen und Erfolgen, wachsen von Woche zu Woche unterschiedlich schnell und überholen sich gegenseitig – und Sie mit ihnen.",
