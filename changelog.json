@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.19.0",
+  "date": "2026-10-31",
+  "text": "Ein leichterer Einstieg: In den ersten Tagen erzählt der Tagesabschluss in klaren Worten, wie der Tag lief – wie viele Kunden eingekauft haben, ob Gewinn übrig bleibt und warum manche mit leeren Händen gegangen sind. Dazu kommt das größte Problem des Tages samt passendem Knopf („Ware aus dem Lager einräumen“, „Nachbestellen“, „Ins Sortiment aufnehmen“ …) und Ihr nächstes Ziel. Alle Zahlen sind weiterhin mit einem Klick erreichbar.",
+  "items": []
+ },
+ {
   "version": "0.18.2",
   "date": "2026-10-31",
   "text": "Kleiner Feinschliff, damit Suchmaschinen die Seite sauber erfassen.",
