@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.27.0",
+  "date": "2026-10-31",
+  "text": "Freunde: Fügen Sie Mitspieler per Spielername oder direkt aus ihrem Profil hinzu. In jeder Bestenliste und bei der Wochen-Challenge schaltet „👥 Freunde“ auf Ihre eigene Rangliste nur mit Ihren Freunden um. Im Profil sehen Sie, wer Ihnen folgt, und können mit einem Klick zurückfolgen. Private Profile bleiben privat: Nur wer Ihnen selbst folgt, kann von Ihnen hinzugefügt werden und erscheint dann in Ihrer Freundesliste.",
+  "items": []
+ },
+ {
   "version": "0.26.0",
   "date": "2026-10-31",
   "text": "MARKET EMPIRE lässt sich jetzt als App installieren: Im Startmenü legt „📲 Als App installieren“ das Spiel mit eigenem Symbol auf Handy, Tablet oder PC. Es startet dann im Vollbild, lädt schneller und öffnet sich auch ohne Netz (Online-Funktionen brauchen weiter Internet). Auf iPhone und iPad erklärt das Spiel den Weg über „Zum Home-Bildschirm“. Neu ist auch der Leistungsmodus für ältere Geräte: weniger Auflösung, kein Straßenverkehr und kein Wetter. Ruckelt das Spiel, schlägt es ihn einmal von selbst vor. Außerdem wirkt eine geänderte Grafikqualität jetzt sofort.",
