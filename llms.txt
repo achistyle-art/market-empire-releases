@@ -1,0 +1,76 @@
+# MARKET EMPIRE
+
+> Kostenlose Supermarkt-Wirtschaftssimulation (Tycoon-Spiel) im Browser, auf Deutsch und Englisch. Vom kleinen Nachbarschaftsladen zum Vollsortiment-Supermarkt und zur regionalen Kette – ohne Download, ohne Werbung, ohne Käufe im Spiel. Entwickelt von Cargesia (https://cargesia.com).
+
+- Spielen: https://markt.cargesia.com/spielen/
+- Website: https://markt.cargesia.com/
+- Aktuelle Version: 0.18.0 (Stand 31.10.2026)
+- Plattformen: Webbrowser auf PC, Laptop, Tablet und Smartphone (Maus/Tastatur oder Touch)
+- Preis: kostenlos; für ein neues Spiel ist ein kostenloses Konto mit bestätigter E-Mail-Adresse nötig
+
+## Worum geht es?
+
+Spielerinnen und Spieler führen einen eigenen Lebensmittelmarkt in einer realistisch gerechneten Wirtschaft:
+
+- Markt einrichten: Regale, Kühlregale mit Glastüren, Tiefkühltruhen, Obsttische, Bedientheke, Backstation, Kassen und Lager frei platzieren; Kunden laufen echte Wege durch den Grundriss.
+- Warenwirtschaft: über 500 Artikel bei sieben Lieferanten, Mindestbestellwerte, Lieferzeiten, Mindesthaltbarkeit (MHD), Abschriften, automatische Disposition mit Bestellvorschlägen.
+- Personal: Kassierer, Verräumer, Thekenpersonal und Marktleitung einstellen, Dienstplan und Schulungen.
+- Preise und Wettbewerb: Discounter und Mitbewerber, Inflation, Aktionen, Prospekte, Kundenkarte, Eigenmarken, Saisonaktionen (Weihnachten, Ostern, Fußball …).
+- Wachstum: vier Ausbaustufen bis zum Vollsortimenter, Filialnetz mit fünf Formaten an 28 Standorten, Zentrallager, Unternehmenswert, Auszeichnung „Handelskette des Jahres“ und Börsengang.
+- Online: Konto, Profil, Cloud-Spielstände, Bestenlisten, Szenarien mit Medaillen, 80 Erfolge und eine wöchentliche Challenge mit eigener Bestenliste (im Advent als Weihnachtsgeschäft).
+
+## Häufige Fragen
+
+### Was ist MARKET EMPIRE?
+
+MARKET EMPIRE ist eine Supermarkt-Wirtschaftssimulation (Tycoon-Spiel), die kostenlos im Browser läuft. Sie beginnen mit einem kleinen Nachbarschaftsladen, richten Regale und Kassen ein, bestellen Ware bei Lieferanten, stellen Personal ein und bauen den Laden bis zum Vollsortiment-Supermarkt und zur regionalen Kette aus. Entwickelt wird das Spiel von Cargesia.
+
+### Ist das Spiel kostenlos?
+
+Ja. MARKET EMPIRE ist kostenlos, ohne Werbung und ohne Kaufoptionen im Spiel.
+
+### Was ist die Wochen-Challenge?
+
+Jeden Montag starten alle Spieler mit derselben Ausgangslage – etwa knappem Startkapital oder einem Discounter nebenan – und haben 28 Spieltage für das beste Betriebsergebnis. Die Ergebnisse stehen in einer eigenen Wochen-Bestenliste. Im Advent wird die Challenge zum Weihnachtsgeschäft.
+
+### Muss ich etwas installieren?
+
+Nein. MARKET EMPIRE läuft direkt im Browser – einfach auf „Jetzt im Browser spielen“ klicken. Ein aktueller Chrome, Edge, Firefox oder Safari genügt.
+
+### Brauche ich ein Konto?
+
+Ja, für ein neues Spiel brauchen Sie ein kostenloses Konto – angelegt in einer Minute mit Spielername, Passwort und E-Mail-Adresse. Wir senden Ihnen einen 6-stelligen Code, mit dem Sie bestätigen, dass es Sie wirklich gibt; keine Werbung. Danach werden Ihre Spielstände in der Cloud gesichert, Sie können auf jedem Gerät weiterspielen, haben ein Profil und erscheinen in der Bestenliste.
+
+### Wie kommt mein Spiel in die Bestenliste?
+
+Melden Sie sich spätestens am 14. Spieltag an – dann zählt das Spiel automatisch. Der Server berechnet die Werte selbst aus Ihrem Cloud-Spielstand; Spiele mit Cheats zählen nicht.
+
+### Wie bekomme ich Updates?
+
+Automatisch: Beim nächsten Aufruf spielen Sie schon die neueste Version. Was sich geändert hat, steht oben unter „Neuigkeiten“ und im Hauptmenü des Spiels.
+
+### Welche Geräte eignen sich?
+
+PC, Laptop, Tablet und Handy. Am PC steuern Sie mit Maus und Tastatur, auf Handy und Tablet per Touch: mit einem Finger verschieben, mit zwei Fingern zoomen, Regale per Antippen bauen. In den Einstellungen lässt sich die Grafikqualität reduzieren, falls es ruckelt.
+
+### Kommt das Spiel auf Steam?
+
+Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht, finden Sie den Link hier.
+
+## Neueste Änderungen
+
+- 0.18.0 (31.10.2026): Aufgeräumt: Texte und Zahlen überlappen nicht mehr – lange Marktnamen in der Kopfleiste, breite Tabellen im Einkauf, im Lager, bei Preisen und Finanzen, der Tagesbericht und der Bestellvorschlag passen jetzt auf jeden Bildschirm, auch auf dem Handy und auf Englisch. Die Schilder auf der Karte weichen sich gegenseitig aus. Außerdem ist MARKET EMPIRE jetzt besser bei Google, Bing und KI-Assistenten wie ChatGPT oder Claude zu finden.
+- 0.17.0 (31.10.2026): Hinter den Kulissen: Wir sehen jetzt anonym und zusammengefasst, wo das Spiel neuen Spielern schwerfällt – etwa bei welchem Tutorial-Schritt viele hängen bleiben. So können wir gezielt die richtigen Stellen verbessern. Namen werden dafür nicht ausgewertet.
+- 0.16.0 (31.10.2026): Mehr Leben im Markt: An der Kasse steigen die Einnahmen als „+12,40 €“ auf, bezahlte Lieferungen als „−830 € Ware“. Kunden sagen per Sprechblase, was los ist – „zu teuer“, „fehlt“, „Schlange!“ oder „Angebot!“. Die Figuren sind größer, und man erkennt die Kundschaft: Familien mit Kind, Rentner mit Gehstock, Studenten mit Rucksack, Berufstätige mit Aktentasche, Bio-Käuferinnen mit Jutebeutel. Im Winter und zur Weihnachtszeit liegt Schnee auf Wiesen und Dächern, und im Advent ist auch das Hauptmenü verschneit.
+- 0.15.0 (31.10.2026): 🎄 Das Advents-Event ist da: In den vier Wochen vor Weihnachten wird die Wochen-Challenge zum Weihnachtsgeschäft. Vom ersten Spieltag an sind Stollen, Spekulatius, Schoko-Weihnachtsmänner und Glühwein gefragt, die Weihnachtsdeko lässt sich buchen, und die Bank legt 5.000 € Weihnachtsbonus dazu. Wer die Weihnachts-Challenge beendet, bekommt das Abzeichen „Weihnachtsgeschäft“ im Profil. Im Advent schneit es im Hauptmenü.
+- 0.14.0 (31.10.2026): Neu: die Wochen-Challenge! Jeden Montag starten alle mit derselben Ausgangslage – mal mit knappem Geld, mal mit Discounter nebenan – und haben 28 Spieltage für das beste Betriebsergebnis. Wer vorne liegt, sehen Sie in der eigenen Wochen-Bestenliste. MARKET EMPIRE läuft jetzt auch auf dem Handy: Karte mit einem Finger verschieben, mit zwei Fingern zoomen, Regale per Antippen bauen, Fenster passen sich dem Bildschirm an. Das Tutorial lobt erledigte Schritte, bietet „Vorspulen“ beim Warten und lässt einen hängenden Schritt überspringen.
+- 0.13.0 (30.10.2026): Ihr Konto ist jetzt bestätigt: Bei der Registrierung bekommen Sie einen 6-stelligen Code per E-Mail (von MARKET EMPIRE · Cargesia), mit dem Sie zeigen, dass es Sie wirklich gibt. Neue Spiele und Szenarien starten Sie mit bestätigtem Konto – Ihre laufenden Spielstände spielen Sie wie gewohnt weiter. Neu ist auch „Passwort vergessen?“: Ein Code per E-Mail genügt. Und das Hauptmenü bleibt beim Darüberfahren gut lesbar.
+- 0.12.1 (30.10.2026): MARKET EMPIRE ist ein Projekt von Cargesia: Der Hinweis mit Link zu cargesia.com steht jetzt unten auf der Startseite, auf den Rechtsseiten und im Spiel unter „Mitwirkende“. Der Download-Link im Seitenfuß ist entfernt.
+- 0.12.0 (30.10.2026): Neuigkeiten im Spiel: Im Hauptmenü zeigt „📰 Neuigkeiten“ jetzt, was sich im Spiel geändert hat – mit Hinweis, wenn seit Ihrem letzten Besuch etwas Neues dazugekommen ist. Die Startseite ist ganz auf die Browser-Version ausgerichtet, mit neuen Antworten zu Konto, Bestenliste und Geräten.
+
+## Kontakt und Rechtliches
+
+- Herausgeber: Cargesia – https://cargesia.com
+- Impressum: https://markt.cargesia.com/impressum
+- Datenschutz: https://markt.cargesia.com/datenschutz
+- Vorschläge und Fehlerberichte: https://github.com/achistyle-art/market-empire-releases/issues

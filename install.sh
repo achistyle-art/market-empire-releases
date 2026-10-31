@@ -69,7 +69,9 @@ fi
 systemctl enable --now docker >/dev/null
 
 say "Konfiguration schreiben ($DIR)"
-printf 'DOMAIN=%s\nADMINS=%s\nSMTP_BENUTZER=%s\nSMTP_HOST=%s\nSMTP_PORT=%s\n' "$DOMAIN" "$ADMINS" "$SMTP_BENUTZER" "$SMTP_HOST" "$SMTP_PORT" > "$DIR/.env"
+# öffentliche Adresse: damit meldet der Spielserver neue Versionen an Suchmaschinen (IndexNow)
+SEITE_URL=""; [ -n "$DOMAIN" ] && SEITE_URL="https://$DOMAIN"
+printf 'DOMAIN=%s\nSEITE_URL=%s\nADMINS=%s\nSMTP_BENUTZER=%s\nSMTP_HOST=%s\nSMTP_PORT=%s\n' "$DOMAIN" "$SEITE_URL" "$ADMINS" "$SMTP_BENUTZER" "$SMTP_HOST" "$SMTP_PORT" > "$DIR/.env"
 chmod 600 "$DIR/.env"
 # Passwortdatei: nur für den Spielserver lesbar (läuft im Container als Benutzer „node“, UID 1000)
 touch "$DIR/smtp-passwort"; chown 1000:1000 "$DIR/smtp-passwort"; chmod 600 "$DIR/smtp-passwort"
@@ -93,6 +95,7 @@ services:
     restart: unless-stopped
     environment:
       ADMINS: "${ADMINS:-}"
+      SEITE_URL: "${SEITE_URL:-}"
       SMTP_HOST: "${SMTP_HOST:-}"
       SMTP_PORT: "${SMTP_PORT:-587}"
       SMTP_BENUTZER: "${SMTP_BENUTZER:-}"

@@ -1,0 +1,51 @@
+# MARKET EMPIRE – Suchmaschinen und KI-Assistenten sind willkommen.
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+# KI-Suchen und -Assistenten (ausdrücklich erlaubt)
+User-agent: GPTBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: https://markt.cargesia.com/sitemap.xml
