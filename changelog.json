@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.32.1",
+  "date": "2026-10-31",
+  "text": "Weiterer Test-Code für das Team, um schneller in höhere Level zu kommen.",
+  "items": []
+ },
+ {
   "version": "0.32.0",
   "date": "2026-10-31",
   "text": "Realistischere Anlieferung: An jeder Lieferzone sitzt jetzt ein Rolltor in der Lagerwand mit Signalleuchte. Kommt ein Lieferwagen oder Lkw, rollt das Tor hoch, ein Lagerarbeiter fährt die Paletten mit dem Hubwagen vom Heck ins Lager, der Stapel im Fahrzeug wird kleiner – danach schließt das Tor wieder.",
