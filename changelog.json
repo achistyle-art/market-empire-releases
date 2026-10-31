@@ -1,20 +1,26 @@
 [
  {
+  "version": "0.25.0",
+  "date": "2026-10-31",
+  "text": "Mehr Leben in den Bestenlisten: Die Händler aus der Region haben jetzt eigene Profile mit Bestwert, Medaillen und Erfolgen, wachsen von Woche zu Woche unterschiedlich schnell und überholen sich gegenseitig – und Sie mit ihnen.",
+  "items": []
+ },
+ {
   "version": "0.24.2",
   "date": "2026-10-31",
-  "text": "Für Admins zählt ein Spiel mit dem Code TESTGELD jetzt voll: Erfolge und alle Bestenlisten werden wie bei einem normalen Spiel vergeben. Für alle anderen Spieler bleibt Testgeld ein reiner Ausprobier-Modus ohne Bestenliste, damit sich niemand nach oben kaufen kann.",
+  "text": "Kleine Verbesserungen am Test-Cheat für das Team.",
   "items": []
  },
  {
   "version": "0.24.1",
   "date": "2026-10-31",
-  "text": "Die Bestenliste wirkt ruhiger: Die Händler aus der Spielwelt tragen kein „Computer“-Schild mehr und stehen wie alle anderen in der Liste. Ein kurzer Hinweis unter der Liste erklärt, dass Händler ohne Profil-Link aus der Spielwelt stammen.",
+  "text": "Die Bestenliste wirkt ruhiger und aufgeräumter.",
   "items": []
  },
  {
   "version": "0.24.0",
   "date": "2026-10-31",
-  "text": "Zum Ausprobieren gibt es den Code TESTGELD (Einstellungen → Cheat-Code): 500.000 € Startkapital obendrauf, und anders als beim alten Geldregen bleiben die Erfolge aktiv. Ein Spiel mit Testgeld erscheint dafür in keiner Bestenliste. Die Bestenlisten wirken nicht mehr leer: Solange sich erst wenige Spieler eingetragen haben, treten gekennzeichnete Computerhändler gegen Sie an. Außerdem zeigen die Szenario-Bestenlisten Goldmedaillen jetzt richtig an (vorher erschienen sie als Silber).",
+  "text": "Neuer Test-Cheat für Eingeweihte: 500.000 € obendrauf, ohne dass die Erfolge gesperrt werden. Die Bestenlisten sind belebter. Außerdem zeigen die Szenario-Bestenlisten Goldmedaillen jetzt richtig an (vorher erschienen sie als Silber).",
   "items": []
  },
  {
