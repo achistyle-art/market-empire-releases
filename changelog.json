@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.31.0",
+  "date": "2026-10-31",
+  "text": "Bushaltestelle: Ab Level 3 können Sie eine eigene Haltestelle mit Wartehäuschen direkt am Gehweg bauen (Bauleiste → Parken). Während der Öffnungszeit hält jede halbe Stunde ein Linienbus und bringt auf einen Schlag eine ganze Gruppe Kunden – rund 12 % mehr Kundschaft, zur Stoßzeit besonders viele. Halten Sie genug Kassen bereit!",
+  "items": []
+ },
+ {
   "version": "0.30.0",
   "date": "2026-10-31",
   "text": "Müll gehört jetzt dazu: Abgelaufene Ware und Kehricht kommen in die Restmülltonne (Leerung dienstags und freitags), die Kartons der Lieferungen in die Papiertonne (montags und donnerstags). Ohne eigene Tonnen holt eine Fremdfirma den Müll – deutlich teurer. Quillt eine Tonne über, kosten Beistellsäcke Geld und Ansehen. Ab Level 4 lässt sich die Papiertonne zur Pappresse aufrüsten: Sie presst die Kartons zu Ballen und verkauft sie automatisch (30 € je Ballen). Den Erlös sehen Sie in der GuV als „Altpapierverkauf“.",
