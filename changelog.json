@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.18.2",
+  "date": "2026-10-31",
+  "text": "Kleiner Feinschliff, damit Suchmaschinen die Seite sauber erfassen.",
+  "items": []
+ },
+ {
   "version": "0.18.1",
   "date": "2026-10-31",
   "text": "MARKET EMPIRE ist jetzt bei Google und Bing angemeldet, damit die Seite schneller in den Suchergebnissen und bei KI-Assistenten auftaucht.",

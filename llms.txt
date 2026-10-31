@@ -4,7 +4,7 @@
 
 - Spielen: https://markt.cargesia.com/spielen/
 - Website: https://markt.cargesia.com/
-- Aktuelle Version: 0.18.1 (Stand 31.10.2026)
+- Aktuelle Version: 0.18.2 (Stand 31.10.2026)
 - Plattformen: Webbrowser auf PC, Laptop, Tablet und Smartphone (Maus/Tastatur oder Touch)
 - Preis: kostenlos; für ein neues Spiel ist ein kostenloses Konto mit bestätigter E-Mail-Adresse nötig
 
@@ -59,6 +59,7 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 
 ## Neueste Änderungen
 
+- 0.18.2 (31.10.2026): Kleiner Feinschliff, damit Suchmaschinen die Seite sauber erfassen.
 - 0.18.1 (31.10.2026): MARKET EMPIRE ist jetzt bei Google und Bing angemeldet, damit die Seite schneller in den Suchergebnissen und bei KI-Assistenten auftaucht.
 - 0.18.0 (31.10.2026): Aufgeräumt: Texte und Zahlen überlappen nicht mehr – lange Marktnamen in der Kopfleiste, breite Tabellen im Einkauf, im Lager, bei Preisen und Finanzen, der Tagesbericht und der Bestellvorschlag passen jetzt auf jeden Bildschirm, auch auf dem Handy und auf Englisch. Die Schilder auf der Karte weichen sich gegenseitig aus. Außerdem ist MARKET EMPIRE jetzt besser bei Google, Bing und KI-Assistenten wie ChatGPT oder Claude zu finden.
 - 0.17.0 (31.10.2026): Hinter den Kulissen: Wir sehen jetzt anonym und zusammengefasst, wo das Spiel neuen Spielern schwerfällt – etwa bei welchem Tutorial-Schritt viele hängen bleiben. So können wir gezielt die richtigen Stellen verbessern. Namen werden dafür nicht ausgewertet.
@@ -66,7 +67,6 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 - 0.15.0 (31.10.2026): 🎄 Das Advents-Event ist da: In den vier Wochen vor Weihnachten wird die Wochen-Challenge zum Weihnachtsgeschäft. Vom ersten Spieltag an sind Stollen, Spekulatius, Schoko-Weihnachtsmänner und Glühwein gefragt, die Weihnachtsdeko lässt sich buchen, und die Bank legt 5.000 € Weihnachtsbonus dazu. Wer die Weihnachts-Challenge beendet, bekommt das Abzeichen „Weihnachtsgeschäft“ im Profil. Im Advent schneit es im Hauptmenü.
 - 0.14.0 (31.10.2026): Neu: die Wochen-Challenge! Jeden Montag starten alle mit derselben Ausgangslage – mal mit knappem Geld, mal mit Discounter nebenan – und haben 28 Spieltage für das beste Betriebsergebnis. Wer vorne liegt, sehen Sie in der eigenen Wochen-Bestenliste. MARKET EMPIRE läuft jetzt auch auf dem Handy: Karte mit einem Finger verschieben, mit zwei Fingern zoomen, Regale per Antippen bauen, Fenster passen sich dem Bildschirm an. Das Tutorial lobt erledigte Schritte, bietet „Vorspulen“ beim Warten und lässt einen hängenden Schritt überspringen.
 - 0.13.0 (30.10.2026): Ihr Konto ist jetzt bestätigt: Bei der Registrierung bekommen Sie einen 6-stelligen Code per E-Mail (von MARKET EMPIRE · Cargesia), mit dem Sie zeigen, dass es Sie wirklich gibt. Neue Spiele und Szenarien starten Sie mit bestätigtem Konto – Ihre laufenden Spielstände spielen Sie wie gewohnt weiter. Neu ist auch „Passwort vergessen?“: Ein Code per E-Mail genügt. Und das Hauptmenü bleibt beim Darüberfahren gut lesbar.
-- 0.12.1 (30.10.2026): MARKET EMPIRE ist ein Projekt von Cargesia: Der Hinweis mit Link zu cargesia.com steht jetzt unten auf der Startseite, auf den Rechtsseiten und im Spiel unter „Mitwirkende“. Der Download-Link im Seitenfuß ist entfernt.
 
 ## Kontakt und Rechtliches
 
