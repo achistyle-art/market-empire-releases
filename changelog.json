@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.32.0",
+  "date": "2026-10-31",
+  "text": "Realistischere Anlieferung: An jeder Lieferzone sitzt jetzt ein Rolltor in der Lagerwand mit Signalleuchte. Kommt ein Lieferwagen oder Lkw, rollt das Tor hoch, ein Lagerarbeiter fährt die Paletten mit dem Hubwagen vom Heck ins Lager, der Stapel im Fahrzeug wird kleiner – danach schließt das Tor wieder.",
+  "items": []
+ },
+ {
   "version": "0.31.0",
   "date": "2026-10-31",
   "text": "Bushaltestelle: Ab Level 3 können Sie eine eigene Haltestelle mit Wartehäuschen direkt am Gehweg bauen (Bauleiste → Parken). Während der Öffnungszeit hält jede halbe Stunde ein Linienbus und bringt auf einen Schlag eine ganze Gruppe Kunden – rund 12 % mehr Kundschaft, zur Stoßzeit besonders viele. Halten Sie genug Kassen bereit!",
