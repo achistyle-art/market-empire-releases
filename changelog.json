@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.24.2",
+  "date": "2026-10-31",
+  "text": "Für Admins zählt ein Spiel mit dem Code TESTGELD jetzt voll: Erfolge und alle Bestenlisten werden wie bei einem normalen Spiel vergeben. Für alle anderen Spieler bleibt Testgeld ein reiner Ausprobier-Modus ohne Bestenliste, damit sich niemand nach oben kaufen kann.",
+  "items": []
+ },
+ {
   "version": "0.24.1",
   "date": "2026-10-31",
   "text": "Die Bestenliste wirkt ruhiger: Die Händler aus der Spielwelt tragen kein „Computer“-Schild mehr und stehen wie alle anderen in der Liste. Ein kurzer Hinweis unter der Liste erklärt, dass Händler ohne Profil-Link aus der Spielwelt stammen.",
