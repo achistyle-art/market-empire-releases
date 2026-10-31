@@ -4,7 +4,7 @@
 
 - Spielen: https://markt.cargesia.com/spielen/
 - Website: https://markt.cargesia.com/
-- Aktuelle Version: 0.25.1 (Stand 31.10.2026)
+- Aktuelle Version: 0.26.0 (Stand 31.10.2026)
 - Plattformen: Webbrowser auf PC, Laptop, Tablet und Smartphone (Maus/Tastatur oder Touch)
 - Preis: kostenlos; für ein neues Spiel ist ein kostenloses Konto mit bestätigter E-Mail-Adresse nötig
 
@@ -59,6 +59,7 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 
 ## Neueste Änderungen
 
+- 0.26.0 (31.10.2026): MARKET EMPIRE lässt sich jetzt als App installieren: Im Startmenü legt „📲 Als App installieren“ das Spiel mit eigenem Symbol auf Handy, Tablet oder PC. Es startet dann im Vollbild, lädt schneller und öffnet sich auch ohne Netz (Online-Funktionen brauchen weiter Internet). Auf iPhone und iPad erklärt das Spiel den Weg über „Zum Home-Bildschirm“. Neu ist auch der Leistungsmodus für ältere Geräte: weniger Auflösung, kein Straßenverkehr und kein Wetter. Ruckelt das Spiel, schlägt es ihn einmal von selbst vor. Außerdem wirkt eine geänderte Grafikqualität jetzt sofort.
 - 0.25.1 (31.10.2026): Aufgeräumteres Spielbild: Regale zeigen ihr Namensschild nur noch, wenn Sie mit der Maus darauf zeigen, sie auswählen oder nah heranzoomen – der Füllstandsbalken bleibt immer sichtbar. Lagerhalle und Kühlhaus hinter dem Markt überdecken das Lager nicht mehr. Das Spiel startet näher am Markt.
 - 0.25.0 (31.10.2026): Mehr Leben in den Bestenlisten: Die Händler aus der Region haben jetzt eigene Profile mit Bestwert, Medaillen und Erfolgen, wachsen von Woche zu Woche unterschiedlich schnell und überholen sich gegenseitig – und Sie mit ihnen.
 - 0.24.2 (31.10.2026): Kleine Verbesserungen am Test-Cheat für das Team.
@@ -66,7 +67,6 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 - 0.24.0 (31.10.2026): Neuer Test-Cheat für Eingeweihte: 500.000 € obendrauf, ohne dass die Erfolge gesperrt werden. Die Bestenlisten sind belebter. Außerdem zeigen die Szenario-Bestenlisten Goldmedaillen jetzt richtig an (vorher erschienen sie als Silber).
 - 0.23.0 (31.10.2026): Neue Spielhilfe: Das Lexikon (❓ oben rechts oder unter Management) erklärt alle Bereiche von Bestellen bis Börsengang, mit Suche und Tipps. Jedes Fenster hat jetzt einen ?-Knopf, der direkt zum passenden Thema springt. Erfolge gehören jetzt Ihrem Konto: Was Sie einmal verdient haben, wird in neuen Spielen und auf anderen Geräten nicht noch einmal gefeiert. Neue Erfolge erscheinen mit einer eigenen Feier samt Abzeichen, und „Fast geschafft“ links zeigt, welche Erfolge als Nächstes in Reichweite sind. Dazu kommen neue Saison-Events für die Wochen-Challenge: Ostergeschäft, Grillsaison im Juli und Fußballfieber während WM und EM, jeweils mit eigenem Abzeichen im Profil.
 - 0.22.0 (31.10.2026): Feinabstimmung nach vielen Testspieljahren: Die Hausbank schaut jetzt genauer hin – schreibt Ihr Markt in den letzten Wochen Verluste, gibt sie nur noch den halben Kreditrahmen frei. Das schützt vor Ausbauten auf Pump, die in die Pleite führen. Frischkauf wird ernster: Eröffnungen werden nur noch zwei Wochen vorher angekündigt, und je größer Ihr Filialnetz, desto schneller und an mehr Orten zieht die Kette nach.
-- 0.21.0 (31.10.2026): Mehr Spannung im Filialgeschäft: Sobald Sie Filialen eröffnen, expandiert die Handelskette Frischkauf in der Region. Sie kündigt jede Eröffnung drei Wochen vorher an – wer zuerst baut, bekommt den Standort. Frischkauf-Märkte ziehen benachbarten Filialen Kundschaft ab; gute Standorte können Sie per Vorvertrag sichern. Dazu kommen neue Entscheidungen für Ketten: Tarifverhandlungen mit Streikgefahr, Übernahmeangebote für schwache Filialen und Streiks im Zentrallager.
 
 ## Kontakt und Rechtliches
 
