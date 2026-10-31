@@ -4,7 +4,7 @@
 
 - Spielen: https://markt.cargesia.com/spielen/
 - Website: https://markt.cargesia.com/
-- Aktuelle Version: 0.22.0 (Stand 31.10.2026)
+- Aktuelle Version: 0.23.0 (Stand 31.10.2026)
 - Plattformen: Webbrowser auf PC, Laptop, Tablet und Smartphone (Maus/Tastatur oder Touch)
 - Preis: kostenlos; für ein neues Spiel ist ein kostenloses Konto mit bestätigter E-Mail-Adresse nötig
 
@@ -59,6 +59,7 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 
 ## Neueste Änderungen
 
+- 0.23.0 (31.10.2026): Neue Spielhilfe: Das Lexikon (❓ oben rechts oder unter Management) erklärt alle Bereiche von Bestellen bis Börsengang, mit Suche und Tipps. Jedes Fenster hat jetzt einen ?-Knopf, der direkt zum passenden Thema springt. Erfolge gehören jetzt Ihrem Konto: Was Sie einmal verdient haben, wird in neuen Spielen und auf anderen Geräten nicht noch einmal gefeiert. Neue Erfolge erscheinen mit einer eigenen Feier samt Abzeichen, und „Fast geschafft“ links zeigt, welche Erfolge als Nächstes in Reichweite sind. Dazu kommen neue Saison-Events für die Wochen-Challenge: Ostergeschäft, Grillsaison im Juli und Fußballfieber während WM und EM, jeweils mit eigenem Abzeichen im Profil.
 - 0.22.0 (31.10.2026): Feinabstimmung nach vielen Testspieljahren: Die Hausbank schaut jetzt genauer hin – schreibt Ihr Markt in den letzten Wochen Verluste, gibt sie nur noch den halben Kreditrahmen frei. Das schützt vor Ausbauten auf Pump, die in die Pleite führen. Frischkauf wird ernster: Eröffnungen werden nur noch zwei Wochen vorher angekündigt, und je größer Ihr Filialnetz, desto schneller und an mehr Orten zieht die Kette nach.
 - 0.21.0 (31.10.2026): Mehr Spannung im Filialgeschäft: Sobald Sie Filialen eröffnen, expandiert die Handelskette Frischkauf in der Region. Sie kündigt jede Eröffnung drei Wochen vorher an – wer zuerst baut, bekommt den Standort. Frischkauf-Märkte ziehen benachbarten Filialen Kundschaft ab; gute Standorte können Sie per Vorvertrag sichern. Dazu kommen neue Entscheidungen für Ketten: Tarifverhandlungen mit Streikgefahr, Übernahmeangebote für schwache Filialen und Streiks im Zentrallager.
 - 0.20.0 (31.10.2026): Schöner und lebendiger: Auf der Straße fahren Autos und Radfahrer vorbei, Passanten bummeln über den Gehweg, gegenüber stehen Straßenbäume. Die Eingangstür öffnet sich, wenn jemand kommt, die Kassiererin scannt sichtbar Ware, und Lieferwagen setzen mit Rückfahrlicht an die Rampe. Statt vieler Warnzeichen zeigt ein kleiner Balken über jedem Regal, welche Fächer knapp werden. Die Oberfläche hat eigene, einheitliche Symbole statt Emojis. Neu: Ergebnis teilen – nach der Wochen-Challenge, einem Szenario oder dem Börsengang ein schönes Ergebnisbild mit Ihrem Markt per WhatsApp & Co. verschicken.
@@ -66,7 +67,6 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 - 0.18.2 (31.10.2026): Kleiner Feinschliff, damit Suchmaschinen die Seite sauber erfassen.
 - 0.18.1 (31.10.2026): MARKET EMPIRE ist jetzt bei Google und Bing angemeldet, damit die Seite schneller in den Suchergebnissen und bei KI-Assistenten auftaucht.
 - 0.18.0 (31.10.2026): Aufgeräumt: Texte und Zahlen überlappen nicht mehr – lange Marktnamen in der Kopfleiste, breite Tabellen im Einkauf, im Lager, bei Preisen und Finanzen, der Tagesbericht und der Bestellvorschlag passen jetzt auf jeden Bildschirm, auch auf dem Handy und auf Englisch. Die Schilder auf der Karte weichen sich gegenseitig aus. Außerdem ist MARKET EMPIRE jetzt besser bei Google, Bing und KI-Assistenten wie ChatGPT oder Claude zu finden.
-- 0.17.0 (31.10.2026): Hinter den Kulissen: Wir sehen jetzt anonym und zusammengefasst, wo das Spiel neuen Spielern schwerfällt – etwa bei welchem Tutorial-Schritt viele hängen bleiben. So können wir gezielt die richtigen Stellen verbessern. Namen werden dafür nicht ausgewertet.
 
 ## Kontakt und Rechtliches
 
