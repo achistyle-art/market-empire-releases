@@ -4,7 +4,7 @@
 
 - Spielen: https://markt.cargesia.com/spielen/
 - Website: https://markt.cargesia.com/
-- Aktuelle Version: 0.29.0 (Stand 31.10.2026)
+- Aktuelle Version: 0.30.0 (Stand 31.10.2026)
 - Plattformen: Webbrowser auf PC, Laptop, Tablet und Smartphone (Maus/Tastatur oder Touch)
 - Preis: kostenlos; für ein neues Spiel ist ein kostenloses Konto mit bestätigter E-Mail-Adresse nötig
 
@@ -59,6 +59,7 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 
 ## Neueste Änderungen
 
+- 0.30.0 (31.10.2026): Müll gehört jetzt dazu: Abgelaufene Ware und Kehricht kommen in die Restmülltonne (Leerung dienstags und freitags), die Kartons der Lieferungen in die Papiertonne (montags und donnerstags). Ohne eigene Tonnen holt eine Fremdfirma den Müll – deutlich teurer. Quillt eine Tonne über, kosten Beistellsäcke Geld und Ansehen. Ab Level 4 lässt sich die Papiertonne zur Pappresse aufrüsten: Sie presst die Kartons zu Ballen und verkauft sie automatisch (30 € je Ballen). Den Erlös sehen Sie in der GuV als „Altpapierverkauf“.
 - 0.29.0 (31.10.2026): Themenregale: Ein Standard- oder Getränkeregal lässt sich für 500 € zum Weinregal, zur Süßwarenwelt, Kaffee & Tee, Snackbar, Drogerie, Bio-Ecke, Internationalen Küche, Babywelt oder zum Tierbedarf umgestalten. Jedes Thema hat eigene Farben und eine Kopfblende mit Symbol, nimmt nur passende Ware auf und steigert die Nachfrage seiner Warengruppe um 15 % (mehrere bis +25 %). Außerdem lockt jedes Themenregal etwas mehr Kundschaft in den Markt. Für das Weinregal gibt es sechs neue Weine.
 - 0.28.0 (31.10.2026): Forschung zeigt jetzt den Fortschritt als Balken mit Prozent. Das Sortiment wächst mit Ihrem Markt: Der Nachbarschaftsladen führt je Warengruppe nur die wichtigsten Artikel, jede Ausbaustufe schaltet mehr frei (bereits gelistete Artikel bleiben). Der Pfandautomat arbeitet richtig: Kunden geben Leergut ab (0,25 € je Flasche), lösen den Pfandbon gleich im Markt ein, und der Getränkelieferant nimmt das Leergut mit der nächsten Lieferung zurück und erstattet das Pfand. Bedienkassen lassen sich in fünf Stufen ausbauen – vom Laufband bis zur Hochleistungskasse, bis zu 60 % schneller.
 - 0.27.0 (31.10.2026): Freunde: Fügen Sie Mitspieler per Spielername oder direkt aus ihrem Profil hinzu. In jeder Bestenliste und bei der Wochen-Challenge schaltet „👥 Freunde“ auf Ihre eigene Rangliste nur mit Ihren Freunden um. Im Profil sehen Sie, wer Ihnen folgt, und können mit einem Klick zurückfolgen. Private Profile bleiben privat: Nur wer Ihnen selbst folgt, kann von Ihnen hinzugefügt werden und erscheint dann in Ihrer Freundesliste.
@@ -66,7 +67,6 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 - 0.25.1 (31.10.2026): Aufgeräumteres Spielbild: Regale zeigen ihr Namensschild nur noch, wenn Sie mit der Maus darauf zeigen, sie auswählen oder nah heranzoomen – der Füllstandsbalken bleibt immer sichtbar. Lagerhalle und Kühlhaus hinter dem Markt überdecken das Lager nicht mehr. Das Spiel startet näher am Markt.
 - 0.25.0 (31.10.2026): Mehr Leben in den Bestenlisten: Die Händler aus der Region haben jetzt eigene Profile mit Bestwert, Medaillen und Erfolgen, wachsen von Woche zu Woche unterschiedlich schnell und überholen sich gegenseitig – und Sie mit ihnen.
 - 0.24.2 (31.10.2026): Kleine Verbesserungen am Test-Cheat für das Team.
-- 0.24.1 (31.10.2026): Die Bestenliste wirkt ruhiger und aufgeräumter.
 
 ## Kontakt und Rechtliches
 
