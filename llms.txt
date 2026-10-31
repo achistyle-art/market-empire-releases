@@ -4,7 +4,7 @@
 
 - Spielen: https://markt.cargesia.com/spielen/
 - Website: https://markt.cargesia.com/
-- Aktuelle Version: 0.27.0 (Stand 31.10.2026)
+- Aktuelle Version: 0.28.0 (Stand 31.10.2026)
 - Plattformen: Webbrowser auf PC, Laptop, Tablet und Smartphone (Maus/Tastatur oder Touch)
 - Preis: kostenlos; für ein neues Spiel ist ein kostenloses Konto mit bestätigter E-Mail-Adresse nötig
 
@@ -59,6 +59,7 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 
 ## Neueste Änderungen
 
+- 0.28.0 (31.10.2026): Forschung zeigt jetzt den Fortschritt als Balken mit Prozent. Das Sortiment wächst mit Ihrem Markt: Der Nachbarschaftsladen führt je Warengruppe nur die wichtigsten Artikel, jede Ausbaustufe schaltet mehr frei (bereits gelistete Artikel bleiben). Der Pfandautomat arbeitet richtig: Kunden geben Leergut ab (0,25 € je Flasche), lösen den Pfandbon gleich im Markt ein, und der Getränkelieferant nimmt das Leergut mit der nächsten Lieferung zurück und erstattet das Pfand. Bedienkassen lassen sich in fünf Stufen ausbauen – vom Laufband bis zur Hochleistungskasse, bis zu 60 % schneller.
 - 0.27.0 (31.10.2026): Freunde: Fügen Sie Mitspieler per Spielername oder direkt aus ihrem Profil hinzu. In jeder Bestenliste und bei der Wochen-Challenge schaltet „👥 Freunde“ auf Ihre eigene Rangliste nur mit Ihren Freunden um. Im Profil sehen Sie, wer Ihnen folgt, und können mit einem Klick zurückfolgen. Private Profile bleiben privat: Nur wer Ihnen selbst folgt, kann von Ihnen hinzugefügt werden und erscheint dann in Ihrer Freundesliste.
 - 0.26.0 (31.10.2026): MARKET EMPIRE lässt sich jetzt als App installieren: Im Startmenü legt „📲 Als App installieren“ das Spiel mit eigenem Symbol auf Handy, Tablet oder PC. Es startet dann im Vollbild, lädt schneller und öffnet sich auch ohne Netz (Online-Funktionen brauchen weiter Internet). Auf iPhone und iPad erklärt das Spiel den Weg über „Zum Home-Bildschirm“. Neu ist auch der Leistungsmodus für ältere Geräte: weniger Auflösung, kein Straßenverkehr und kein Wetter. Ruckelt das Spiel, schlägt es ihn einmal von selbst vor. Außerdem wirkt eine geänderte Grafikqualität jetzt sofort.
 - 0.25.1 (31.10.2026): Aufgeräumteres Spielbild: Regale zeigen ihr Namensschild nur noch, wenn Sie mit der Maus darauf zeigen, sie auswählen oder nah heranzoomen – der Füllstandsbalken bleibt immer sichtbar. Lagerhalle und Kühlhaus hinter dem Markt überdecken das Lager nicht mehr. Das Spiel startet näher am Markt.
@@ -66,7 +67,6 @@ Ja, die Steam-Veröffentlichung ist in Vorbereitung. Sobald die Shopseite steht,
 - 0.24.2 (31.10.2026): Kleine Verbesserungen am Test-Cheat für das Team.
 - 0.24.1 (31.10.2026): Die Bestenliste wirkt ruhiger und aufgeräumter.
 - 0.24.0 (31.10.2026): Neuer Test-Cheat für Eingeweihte: 500.000 € obendrauf, ohne dass die Erfolge gesperrt werden. Die Bestenlisten sind belebter. Außerdem zeigen die Szenario-Bestenlisten Goldmedaillen jetzt richtig an (vorher erschienen sie als Silber).
-- 0.23.0 (31.10.2026): Neue Spielhilfe: Das Lexikon (❓ oben rechts oder unter Management) erklärt alle Bereiche von Bestellen bis Börsengang, mit Suche und Tipps. Jedes Fenster hat jetzt einen ?-Knopf, der direkt zum passenden Thema springt. Erfolge gehören jetzt Ihrem Konto: Was Sie einmal verdient haben, wird in neuen Spielen und auf anderen Geräten nicht noch einmal gefeiert. Neue Erfolge erscheinen mit einer eigenen Feier samt Abzeichen, und „Fast geschafft“ links zeigt, welche Erfolge als Nächstes in Reichweite sind. Dazu kommen neue Saison-Events für die Wochen-Challenge: Ostergeschäft, Grillsaison im Juli und Fußballfieber während WM und EM, jeweils mit eigenem Abzeichen im Profil.
 
 ## Kontakt und Rechtliches
 

@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.28.0",
+  "date": "2026-10-31",
+  "text": "Forschung zeigt jetzt den Fortschritt als Balken mit Prozent. Das Sortiment wächst mit Ihrem Markt: Der Nachbarschaftsladen führt je Warengruppe nur die wichtigsten Artikel, jede Ausbaustufe schaltet mehr frei (bereits gelistete Artikel bleiben). Der Pfandautomat arbeitet richtig: Kunden geben Leergut ab (0,25 € je Flasche), lösen den Pfandbon gleich im Markt ein, und der Getränkelieferant nimmt das Leergut mit der nächsten Lieferung zurück und erstattet das Pfand. Bedienkassen lassen sich in fünf Stufen ausbauen – vom Laufband bis zur Hochleistungskasse, bis zu 60 % schneller.",
+  "items": []
+ },
+ {
   "version": "0.27.0",
   "date": "2026-10-31",
   "text": "Freunde: Fügen Sie Mitspieler per Spielername oder direkt aus ihrem Profil hinzu. In jeder Bestenliste und bei der Wochen-Challenge schaltet „👥 Freunde“ auf Ihre eigene Rangliste nur mit Ihren Freunden um. Im Profil sehen Sie, wer Ihnen folgt, und können mit einem Klick zurückfolgen. Private Profile bleiben privat: Nur wer Ihnen selbst folgt, kann von Ihnen hinzugefügt werden und erscheint dann in Ihrer Freundesliste.",
