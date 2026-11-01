@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.40.0",
+  "date": "2026-11-01",
+  "text": "Flüssigeres Spiel bei großen Märkten: Regale, Kühltruhen, Paletten und das Lager werden als fertiges Bild zwischengespeichert und nur neu gezeichnet, wenn sich Ware oder Aufstellung ändern. In einem voll eingerichteten Großmarkt läuft die Grafik dadurch etwa dreimal so flüssig. Alte Tagesberichte (älter als 100 Tage) werden auf die Kennzahlen verschlankt – der Spielstand wächst langsamer und Speichern geht schneller.",
+  "items": []
+ },
+ {
   "version": "0.39.0",
   "date": "2026-11-01",
   "text": "Online-Shop (Management → Online-Shop, ab Level 9 und dem Lebensmittelmarkt): Kunden bestellen per Click & Collect zum Abholen oder – mit eigenen Lieferwagen – per Lieferdienst bis an die Haustür. Kommissionierer stellen die Bestellungen aus Ihrem Lager zusammen, Sie legen Liefergebühr, Personal und Fuhrpark fest. Fehlende Ware und abgewiesene Bestellungen kosten Sterne in der Online-Bewertung und damit Nachfrage. Online-Umsatz zählt in GuV und Absatzprognose wie Ladenumsatz.",
