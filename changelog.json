@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.42.0",
+  "date": "2026-11-03",
+  "text": "Drehen, zweite Etappe: Auch die Außenansicht lässt sich jetzt mit Q/E drehen – Fassade mit Fenstern auf allen Seiten, Satteldach bzw. Flachdach mit Attika, Rolltore, Saison-Deko und Eingang erscheinen jeweils dort, wo sie aus der Blickrichtung zu sehen sind. Innen werden Lagerregale von jeder Seite in der richtigen Reihenfolge gezeichnet, der Pausenraum samt Pausierenden passt sich der Blickrichtung an, und Kassen stehen in jeder Ansicht richtig herum (Kassierer auf seiner Seite, Kunden auf ihrer).",
+  "items": []
+ },
+ {
   "version": "0.41.0",
   "date": "2026-11-03",
   "text": "Ansicht drehen: Mit Q und E (oder den Drehknöpfen unten rechts) dreht sich die Karte in 90°-Schritten – so sieht man auch hinter hohe Regale und auf jede Seite des Markts. Gedreht wird der Markt offen von oben gezeigt, die hinteren Wände bleiben hoch, die vorderen werden zur niedrigen Schnittkante. Bauen, Auswählen und Verschieben funktionieren in jeder Blickrichtung. Neu in der Tastenübersicht: Q/E und I.",
