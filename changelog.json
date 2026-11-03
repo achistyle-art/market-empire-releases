@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.41.0",
+  "date": "2026-11-03",
+  "text": "Ansicht drehen: Mit Q und E (oder den Drehknöpfen unten rechts) dreht sich die Karte in 90°-Schritten – so sieht man auch hinter hohe Regale und auf jede Seite des Markts. Gedreht wird der Markt offen von oben gezeigt, die hinteren Wände bleiben hoch, die vorderen werden zur niedrigen Schnittkante. Bauen, Auswählen und Verschieben funktionieren in jeder Blickrichtung. Neu in der Tastenübersicht: Q/E und I.",
+  "items": []
+ },
+ {
   "version": "0.40.0",
   "date": "2026-11-01",
   "text": "Flüssigeres Spiel bei großen Märkten: Regale, Kühltruhen, Paletten und das Lager werden als fertiges Bild zwischengespeichert und nur neu gezeichnet, wenn sich Ware oder Aufstellung ändern. In einem voll eingerichteten Großmarkt läuft die Grafik dadurch etwa dreimal so flüssig. Alte Tagesberichte (älter als 100 Tage) werden auf die Kennzahlen verschlankt – der Spielstand wächst langsamer und Speichern geht schneller.",
