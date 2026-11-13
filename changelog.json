@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.46.0",
+  "date": "2026-11-13",
+  "text": "Gestochen scharfe Grafik: Boden, Pflaster, Dächer und Fassaden werden jetzt in der Auflösung des Bildschirms gezeichnet, statt aus einem kleineren Zwischenbild hochgerechnet zu werden – beim Heranzoomen und auf hochauflösenden Bildschirmen deutlich schärfer. Standard ist jetzt die Grafikqualität „Hoch“ (in den Einstellungen weiter umstellbar, der Leistungsmodus bleibt). Dazu plastischere Möbel und Gebäude (zum Boden hin dunklere Seiten, Lichtkanten oben), ein weicher Bodenschatten rund ums Gebäude, schattierte Figuren und ein leichter Dunst in der Ferne. Behoben: Nach dem Ausbau zum Vollsortimenter war hinter dem Gebäude kein Platz mehr für Lagerhalle oder Kühlhaus – Nordstreifen und Gewerbefläche Ost reichen jetzt zwei Felder weiter nach Norden.",
+  "items": []
+ },
+ {
   "version": "0.45.0",
   "date": "2026-11-13",
   "text": "Grafik-Paket: Größere Märkte im neuen Stil (Klinkersockel und Klinker-Lisenen, durchgehende orange Markise mit Wandleuchten, Namensschild auf der Attika, Obstkisten über die ganze Front, Kiesdach – mit erforschtem Solardach liegen Photovoltaik-Module darauf). Innen hängen Pendelleuchten mit warmem Lichtschein über der Verkaufsfläche, Möbel und Wände werfen weichere Schatten. Das Personal trägt orange Firmenschürzen, Kundschaft verlässt den Markt mit Papiertüten und trägt im Herbst und Winter Schal. Lieferwagen und Lkw fahren in Weiß-Orange, Poller säumen die Grundstückskante, Bäume blühen im Frühling, färben sich im Herbst bunt (mit fallendem Laub) und stehen im Winter kahl. Dazu eine kräftigere goldene Stunde, eine blaue Dämmerung und Dampf über der Backstation.",
