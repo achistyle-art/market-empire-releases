@@ -1,5 +1,11 @@
 [
  {
+  "version": "0.48.0",
+  "date": "2026-11-13",
+  "text": "Regale im neuen Look: Das gemalte Regal aus 0.47 passte zwischen den übrigen Möbeln nicht (alle gleich, zu groß, anderer Stil). Stattdessen tragen die Regale jetzt sein Design – helles Holz, dunkelgrüne Stirnseiten mit orangen Kappen und Einkaufswagen-Schild, helle Regalkanten, orange Preisschilder, Weidenkörbe und Pflanzen obendrauf – und zeigen weiterhin die echte Ware, leere Fächer und Spezialisierungen.",
+  "items": []
+ },
+ {
   "version": "0.47.0",
   "date": "2026-11-13",
   "text": "Erste gemalte Grafik: Das Standardregal ist jetzt ein liebevoll gemaltes Holzregal mit Körben, Gläsern, Konserven und Preisschildern – und eine eigene Ansicht, wenn es fast leer ist. Gemalte Grafiken werden passend zur Zoomstufe vorbereitet und bleiben dadurch scharf und flüssig. Weitere Möbel folgen im selben Stil.",
